@@ -1,4 +1,150 @@
-EESchema Schematic File Version 2
-EELAYER 25 0
+EESchema Schematic File Version 4
+LIBS:kana60-cache
+EELAYER 29 0
 EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "kana60"
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L kbd:ProMicro U?
+U 1 1 5D0919E7
+P 2175 1625
+F 0 "U?" H 2175 2662 60  0000 C CNN
+F 1 "ProMicro" H 2175 2556 60  0000 C CNN
+F 2 "" H 2275 575 60  0000 C CNN
+F 3 "" H 2275 575 60  0000 C CNN
+	1    2175 1625
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5D092D65
+P 1050 725
+F 0 "#PWR?" H 1050 475 50  0001 C CNN
+F 1 "GND" H 1055 552 50  0000 C CNN
+F 2 "" H 1050 725 50  0001 C CNN
+F 3 "" H 1050 725 50  0001 C CNN
+	1    1050 725 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR?
+U 1 1 5D0932C7
+P 700 725
+F 0 "#PWR?" H 700 575 50  0001 C CNN
+F 1 "VCC" H 717 898 50  0000 C CNN
+F 2 "" H 700 725 50  0001 C CNN
+F 3 "" H 700 725 50  0001 C CNN
+	1    700  725 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG?
+U 1 1 5D093962
+P 700 725
+F 0 "#FLG?" H 700 800 50  0001 C CNN
+F 1 "PWR_FLAG" H 700 898 50  0000 C CNN
+F 2 "" H 700 725 50  0001 C CNN
+F 3 "~" H 700 725 50  0001 C CNN
+	1    700  725 
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG?
+U 1 1 5D0944AE
+P 1050 725
+F 0 "#FLG?" H 1050 800 50  0001 C CNN
+F 1 "PWR_FLAG" H 1050 898 50  0000 C CNN
+F 2 "" H 1050 725 50  0001 C CNN
+F 3 "~" H 1050 725 50  0001 C CNN
+	1    1050 725 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5D0A154B
+P 1400 2075
+F 0 "#PWR?" H 1400 1825 50  0001 C CNN
+F 1 "GND" H 1405 1902 50  0000 C CNN
+F 2 "" H 1400 2075 50  0001 C CNN
+F 3 "" H 1400 2075 50  0001 C CNN
+	1    1400 2075
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR?
+U 1 1 5D0A19F7
+P 3175 775
+F 0 "#PWR?" H 3175 625 50  0001 C CNN
+F 1 "VCC" H 3192 948 50  0000 C CNN
+F 2 "" H 3175 775 50  0001 C CNN
+F 3 "" H 3175 775 50  0001 C CNN
+	1    3175 775 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2875 1175 3175 1175
+Wire Wire Line
+	3175 1175 3175 775 
+Wire Wire Line
+	1475 1075 1400 1075
+Wire Wire Line
+	1400 1075 1400 1175
+Wire Wire Line
+	1475 1175 1400 1175
+Connection ~ 1400 1175
+Wire Wire Line
+	1400 1175 1400 2075
+$Comp
+L power:GND #PWR?
+U 1 1 5D0B1D22
+P 3250 2075
+F 0 "#PWR?" H 3250 1825 50  0001 C CNN
+F 1 "GND" H 3255 1902 50  0000 C CNN
+F 2 "" H 3250 2075 50  0001 C CNN
+F 3 "" H 3250 2075 50  0001 C CNN
+	1    3250 2075
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2875 975  3250 975 
+Wire Wire Line
+	3250 975  3250 2075
+Text GLabel 2875 1075 2    50   Input ~ 0
+reset
+Text GLabel 3550 1075 0    50   Input ~ 0
+reset
+$Comp
+L power:GND #PWR?
+U 1 1 5D0BA604
+P 4150 2075
+F 0 "#PWR?" H 4150 1825 50  0001 C CNN
+F 1 "GND" H 4155 1902 50  0000 C CNN
+F 2 "" H 4150 2075 50  0001 C CNN
+F 3 "" H 4150 2075 50  0001 C CNN
+	1    4150 2075
+	1    0    0    -1  
+$EndComp
+$Comp
+L kbd:SW_PUSH SW?
+U 1 1 5D0B97C9
+P 3850 1075
+F 0 "SW?" H 3850 1330 50  0000 C CNN
+F 1 "SW_PUSH" H 3850 1239 50  0000 C CNN
+F 2 "" H 3850 1075 50  0000 C CNN
+F 3 "" H 3850 1075 50  0000 C CNN
+	1    3850 1075
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4150 1075 4150 2075
 $EndSCHEMATC
