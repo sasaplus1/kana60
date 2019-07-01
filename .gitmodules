@@ -1,3 +1,6 @@
 [submodule "libs/kbd"]
 	path = libs/kbd
 	url = https://github.com/foostan/kbd
+[submodule "libs/keebio"]
+	path = libs/keebio
+	url = https://github.com/keebio/Keebio-Parts.pretty
