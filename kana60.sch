@@ -2281,13 +2281,13 @@ kana
 Text Notes 5725 4250 0    50   ~ 0
 cmd
 Text Notes 6400 4250 0    50   ~ 0
-meta
+left
 Text Notes 7050 4250 0    50   ~ 0
-meta
-Text Notes 7750 4250 0    50   ~ 0
-home
+down
+Text Notes 7800 4250 0    50   ~ 0
+up
 Text Notes 8450 4250 0    50   ~ 0
-end
+right
 Text Notes 10475 4250 0    50   ~ 0
 caps
 Text Notes 9175 2075 0    50   ~ 0
