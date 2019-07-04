@@ -1953,21 +1953,8 @@ F 3 "" H 10550 4375 50  0000 C CNN
 	1    10550 4375
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:D D67
-U 1 1 5D963060
-P 10250 4525
-F 0 "D67" V 10296 4446 50  0000 R CNN
-F 1 "D" V 10205 4446 50  0000 R CNN
-F 2 "kbd:D3_TH_SMD" H 10250 4525 50  0001 C CNN
-F 3 "~" H 10250 4525 50  0001 C CNN
-	1    10250 4525
-	0    -1   -1   0   
-$EndComp
 Text GLabel 10850 4375 1    50   Input ~ 0
 col0
-Text GLabel 10250 4675 0    50   Input ~ 0
-row2-0
 NoConn ~ 1525 5750
 Text GLabel 1525 6450 0    50   Input ~ 0
 col5
@@ -2366,4 +2353,11 @@ Text Notes 6450 3525 0    50   ~ 0
 M
 Text Notes 9175 3525 0    50   ~ 0
 _
+Text GLabel 10250 4375 3    50   Input ~ 0
+capslock
+Text GLabel 1150 2925 0    50   Input ~ 0
+capslock
+Wire Wire Line
+	1150 2925 1450 2925
+Connection ~ 1450 2925
 $EndSCHEMATC
