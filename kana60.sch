@@ -15,114 +15,6 @@ Comment3 "JP layout 60% mechanical keyboard"
 Comment4 ""
 $EndDescr
 $Comp
-L power:GND #PWR04
-U 1 1 5D092D65
-P 5775 6375
-F 0 "#PWR04" H 5775 6125 50  0001 C CNN
-F 1 "GND" H 5780 6202 50  0000 C CNN
-F 2 "" H 5775 6375 50  0001 C CNN
-F 3 "" H 5775 6375 50  0001 C CNN
-	1    5775 6375
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:VCC #PWR03
-U 1 1 5D0932C7
-P 5425 6375
-F 0 "#PWR03" H 5425 6225 50  0001 C CNN
-F 1 "VCC" H 5442 6548 50  0000 C CNN
-F 2 "" H 5425 6375 50  0001 C CNN
-F 3 "" H 5425 6375 50  0001 C CNN
-	1    5425 6375
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:PWR_FLAG #FLG01
-U 1 1 5D093962
-P 5425 6375
-F 0 "#FLG01" H 5425 6450 50  0001 C CNN
-F 1 "PWR_FLAG" H 5425 6548 50  0000 C CNN
-F 2 "" H 5425 6375 50  0001 C CNN
-F 3 "~" H 5425 6375 50  0001 C CNN
-	1    5425 6375
-	-1   0    0    1   
-$EndComp
-$Comp
-L power:PWR_FLAG #FLG02
-U 1 1 5D0944AE
-P 5775 6375
-F 0 "#FLG02" H 5775 6450 50  0001 C CNN
-F 1 "PWR_FLAG" H 5775 6548 50  0000 C CNN
-F 2 "" H 5775 6375 50  0001 C CNN
-F 3 "~" H 5775 6375 50  0001 C CNN
-	1    5775 6375
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR05
-U 1 1 5D0A154B
-P 1125 6950
-F 0 "#PWR05" H 1125 6700 50  0001 C CNN
-F 1 "GND" H 1130 6777 50  0000 C CNN
-F 2 "" H 1125 6950 50  0001 C CNN
-F 3 "" H 1125 6950 50  0001 C CNN
-	1    1125 6950
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:VCC #PWR01
-U 1 1 5D0A19F7
-P 3225 5650
-F 0 "#PWR01" H 3225 5500 50  0001 C CNN
-F 1 "VCC" H 3242 5823 50  0000 C CNN
-F 2 "" H 3225 5650 50  0001 C CNN
-F 3 "" H 3225 5650 50  0001 C CNN
-	1    3225 5650
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2925 6050 3225 6050
-Wire Wire Line
-	3225 6050 3225 5650
-$Comp
-L power:GND #PWR06
-U 1 1 5D0B1D22
-P 3325 6950
-F 0 "#PWR06" H 3325 6700 50  0001 C CNN
-F 1 "GND" H 3330 6777 50  0000 C CNN
-F 2 "" H 3325 6950 50  0001 C CNN
-F 3 "" H 3325 6950 50  0001 C CNN
-	1    3325 6950
-	1    0    0    -1  
-$EndComp
-Text GLabel 2925 5950 2    50   Input ~ 0
-reset
-Text GLabel 4250 6375 0    50   Input ~ 0
-reset
-$Comp
-L power:GND #PWR02
-U 1 1 5D0BA604
-P 4850 6375
-F 0 "#PWR02" H 4850 6125 50  0001 C CNN
-F 1 "GND" H 4855 6202 50  0000 C CNN
-F 2 "" H 4850 6375 50  0001 C CNN
-F 3 "" H 4850 6375 50  0001 C CNN
-	1    4850 6375
-	1    0    0    -1  
-$EndComp
-$Comp
-L kbd:SW_PUSH SW68
-U 1 1 5D0B97C9
-P 4550 6375
-F 0 "SW68" H 4550 6630 50  0000 C CNN
-F 1 "SW_PUSH" H 4550 6539 50  0000 C CNN
-F 2 "kbd:ResetSW_1side" H 4550 6375 50  0001 C CNN
-F 3 "" H 4550 6375 50  0000 C CNN
-	1    4550 6375
-	1    0    0    -1  
-$EndComp
-NoConn ~ 2925 5750
-$Comp
 L Device:D D1
 U 1 1 5D1276A2
 P 1450 1625
@@ -281,7 +173,7 @@ U 1 1 5D3A855F
 P 10550 2925
 F 0 "SW42" H 10550 3270 50  0000 C CNN
 F 1 "SW_PUSH" H 10550 3179 50  0000 C CNN
-F 2 "Keebio-Parts:MX-Alps-Choc-1U-NoLED" H 10550 3088 50  0001 C CNN
+F 2 "kana60:MX-Alps-Choc-2U-NoLED" H 10550 3088 50  0001 C CNN
 F 3 "" H 10550 2925 50  0000 C CNN
 	1    10550 2925
 	1    0    0    -1  
@@ -853,7 +745,7 @@ U 1 1 5D164FAC
 P 4450 4375
 F 0 "SW60" H 4450 4720 50  0000 C CNN
 F 1 "SW_PUSH" H 4450 4629 50  0000 C CNN
-F 2 "Keebio-Parts:MX-Alps-Choc-1U-NoLED" H 4450 4538 50  0001 C CNN
+F 2 "kana60:MX-Alps-Choc-2U-NoLED" H 4450 4538 50  0001 C CNN
 F 3 "" H 4450 4375 50  0000 C CNN
 	1    4450 4375
 	1    0    0    -1  
@@ -1271,7 +1163,7 @@ U 1 1 5D132954
 P 1750 3650
 F 0 "SW43" H 1750 3995 50  0000 C CNN
 F 1 "SW_PUSH" H 1750 3904 50  0000 C CNN
-F 2 "Keebio-Parts:MX-Alps-Choc-1U-NoLED" H 1750 3813 50  0001 C CNN
+F 2 "kana60:MX-Alps-Choc-2U-NoLED" H 1750 3813 50  0001 C CNN
 F 3 "" H 1750 3650 50  0000 C CNN
 	1    1750 3650
 	1    0    0    -1  
@@ -1942,78 +1834,6 @@ Wire Wire Line
 Connection ~ 6850 4725
 Wire Wire Line
 	6850 4725 8225 4725
-$Comp
-L kbd:SW_PUSH SW67
-U 1 1 5D96305A
-P 10550 4375
-F 0 "SW67" H 10550 4720 50  0000 C CNN
-F 1 "SW_PUSH" H 10550 4629 50  0000 C CNN
-F 2 "Keebio-Parts:MX-Alps-Choc-1U-NoLED" H 10550 4538 50  0001 C CNN
-F 3 "" H 10550 4375 50  0000 C CNN
-	1    10550 4375
-	1    0    0    -1  
-$EndComp
-Text GLabel 10850 4375 1    50   Input ~ 0
-col0
-NoConn ~ 1525 5750
-Text GLabel 1525 6450 0    50   Input ~ 0
-col5
-Text GLabel 1525 5850 0    50   Input ~ 0
-col2
-Text GLabel 1525 6350 0    50   Input ~ 0
-col3
-Text GLabel 1525 6550 0    50   Input ~ 0
-col4
-$Comp
-L kbd:ProMicro U1
-U 1 1 5D0919E7
-P 2225 6500
-F 0 "U1" H 2225 7537 60  0000 C CNN
-F 1 "ProMicro" H 2225 7431 60  0000 C CNN
-F 2 "Keebio-Parts:ArduinoProMicro" H 2325 5450 60  0001 C CNN
-F 3 "" H 2325 5450 60  0000 C CNN
-	1    2225 6500
-	1    0    0    -1  
-$EndComp
-Text GLabel 1525 6150 0    50   Input ~ 0
-col1
-Text GLabel 1525 6250 0    50   Input ~ 0
-col0
-Wire Wire Line
-	3325 6950 3325 5850
-Wire Wire Line
-	3325 5850 2925 5850
-Text GLabel 2925 6850 2    50   Input ~ 0
-row4-1
-Text GLabel 2925 6650 2    50   Input ~ 0
-row3-0
-Text GLabel 2925 6750 2    50   Input ~ 0
-row2-1
-Text GLabel 2925 6550 2    50   Input ~ 0
-row2-0
-Text GLabel 2925 6150 2    50   Input ~ 0
-row1-1
-Text GLabel 2925 6250 2    50   Input ~ 0
-row1-0
-Text GLabel 2925 6350 2    50   Input ~ 0
-row0-1
-Text GLabel 2925 6450 2    50   Input ~ 0
-row0-0
-Text GLabel 1525 6850 0    50   Input ~ 0
-row4-0
-Text GLabel 1525 6750 0    50   Input ~ 0
-row3-1
-Wire Wire Line
-	1525 6050 1125 6050
-Wire Wire Line
-	1125 6050 1125 6950
-Wire Wire Line
-	1525 5950 1125 5950
-Wire Wire Line
-	1125 5950 1125 6050
-Connection ~ 1125 6050
-Text GLabel 1525 6650 0    50   Input ~ 0
-col6
 Connection ~ 10850 1475
 Wire Wire Line
 	10850 1050 10850 1475
@@ -2262,21 +2082,19 @@ cmd
 Text Notes 3725 4250 0    50   ~ 0
 en
 Text Notes 4350 4250 0    50   ~ 0
-space
-Text Notes 5050 4250 0    50   ~ 0
+l-spc
+Text Notes 5700 4250 0    50   ~ 0
 kana
-Text Notes 5725 4250 0    50   ~ 0
-cmd
 Text Notes 6400 4250 0    50   ~ 0
+cmd
+Text Notes 7075 4250 0    50   ~ 0
 left
-Text Notes 7050 4250 0    50   ~ 0
+Text Notes 7750 4250 0    50   ~ 0
 down
-Text Notes 7800 4250 0    50   ~ 0
+Text Notes 8475 4250 0    50   ~ 0
 up
-Text Notes 8450 4250 0    50   ~ 0
+Text Notes 9100 4250 0    50   ~ 0
 right
-Text Notes 10475 4250 0    50   ~ 0
-caps
 Text Notes 9175 2075 0    50   ~ 0
 @
 Text Notes 9850 2075 0    50   ~ 0
@@ -2353,11 +2171,269 @@ Text Notes 6450 3525 0    50   ~ 0
 M
 Text Notes 9175 3525 0    50   ~ 0
 _
-Text GLabel 10250 4375 3    50   Input ~ 0
-capslock
-Text GLabel 1150 2925 0    50   Input ~ 0
-capslock
+$Comp
+L kbd:SW_PUSH SW67
+U 1 1 5D23FAD7
+P 9200 4375
+F 0 "SW67" H 9200 4720 50  0000 C CNN
+F 1 "SW_PUSH" H 9200 4629 50  0000 C CNN
+F 2 "Keebio-Parts:MX-Alps-Choc-1U-NoLED" H 9200 4538 50  0001 C CNN
+F 3 "" H 9200 4375 50  0000 C CNN
+	1    9200 4375
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D67
+U 1 1 5D23FADD
+P 8900 4525
+F 0 "D67" V 8946 4446 50  0000 R CNN
+F 1 "D" V 8855 4446 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-dual" H 8900 4525 50  0001 C CNN
+F 3 "~" H 8900 4525 50  0001 C CNN
+	1    8900 4525
+	0    -1   -1   0   
+$EndComp
 Wire Wire Line
-	1150 2925 1450 2925
+	7550 4825 8900 4825
+Wire Wire Line
+	8900 4675 8900 4825
+Connection ~ 7550 4825
+Wire Wire Line
+	9500 3650 9500 4375
+Connection ~ 9500 3650
+Text Notes 5025 4250 0    50   ~ 0
+r-spc
+$Comp
+L Switch:SW_Push SW71
+U 1 1 5D32FDEF
+P 4500 6750
+F 0 "SW71" H 4500 7035 50  0000 C CNN
+F 1 "SW_Push" H 4500 6944 50  0000 C CNN
+F 2 "kbd:ResetSW" H 4500 6950 50  0001 C CNN
+F 3 "~" H 4500 6950 50  0001 C CNN
+	1    4500 6750
+	1    0    0    -1  
+$EndComp
+Text GLabel 1525 7025 0    50   Input ~ 0
+col6
+Connection ~ 1125 6425
+Wire Wire Line
+	1125 6325 1125 6425
+Wire Wire Line
+	1525 6325 1125 6325
+Wire Wire Line
+	1125 6425 1125 7325
+Wire Wire Line
+	1525 6425 1125 6425
+Text GLabel 1525 7125 0    50   Input ~ 0
+row3-1
+Text GLabel 1525 7225 0    50   Input ~ 0
+row4-0
+Text GLabel 2925 6825 2    50   Input ~ 0
+row0-0
+Text GLabel 2925 6725 2    50   Input ~ 0
+row0-1
+Text GLabel 2925 6625 2    50   Input ~ 0
+row1-0
+Text GLabel 2925 6525 2    50   Input ~ 0
+row1-1
+Text GLabel 2925 6925 2    50   Input ~ 0
+row2-0
+Text GLabel 2925 7125 2    50   Input ~ 0
+row2-1
+Text GLabel 2925 7025 2    50   Input ~ 0
+row3-0
+Text GLabel 2925 7225 2    50   Input ~ 0
+row4-1
+Wire Wire Line
+	3325 6225 2925 6225
+Wire Wire Line
+	3325 7325 3325 6225
+Text GLabel 1525 6625 0    50   Input ~ 0
+col0
+Text GLabel 1525 6525 0    50   Input ~ 0
+col1
+$Comp
+L kbd:ProMicro U1
+U 1 1 5D0919E7
+P 2225 6875
+F 0 "U1" H 2225 7912 60  0000 C CNN
+F 1 "ProMicro" H 2225 7806 60  0000 C CNN
+F 2 "Keebio-Parts:ArduinoProMicro" H 2325 5825 60  0001 C CNN
+F 3 "" H 2325 5825 60  0000 C CNN
+	1    2225 6875
+	1    0    0    -1  
+$EndComp
+Text GLabel 1525 6925 0    50   Input ~ 0
+col4
+Text GLabel 1525 6725 0    50   Input ~ 0
+col3
+Text GLabel 1525 6225 0    50   Input ~ 0
+col2
+Text GLabel 1525 6825 0    50   Input ~ 0
+col5
+NoConn ~ 1525 6125
+NoConn ~ 2925 6125
+$Comp
+L power:GND #PWR02
+U 1 1 5D0BA604
+P 4700 6750
+F 0 "#PWR02" H 4700 6500 50  0001 C CNN
+F 1 "GND" H 4705 6577 50  0000 C CNN
+F 2 "" H 4700 6750 50  0001 C CNN
+F 3 "" H 4700 6750 50  0001 C CNN
+	1    4700 6750
+	1    0    0    -1  
+$EndComp
+Text GLabel 4300 6750 0    50   Input ~ 0
+reset
+Text GLabel 2925 6325 2    50   Input ~ 0
+reset
+$Comp
+L power:GND #PWR06
+U 1 1 5D0B1D22
+P 3325 7325
+F 0 "#PWR06" H 3325 7075 50  0001 C CNN
+F 1 "GND" H 3330 7152 50  0000 C CNN
+F 2 "" H 3325 7325 50  0001 C CNN
+F 3 "" H 3325 7325 50  0001 C CNN
+	1    3325 7325
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3225 6425 3225 6025
+Wire Wire Line
+	2925 6425 3225 6425
+$Comp
+L power:VCC #PWR01
+U 1 1 5D0A19F7
+P 3225 6025
+F 0 "#PWR01" H 3225 5875 50  0001 C CNN
+F 1 "VCC" H 3242 6198 50  0000 C CNN
+F 2 "" H 3225 6025 50  0001 C CNN
+F 3 "" H 3225 6025 50  0001 C CNN
+	1    3225 6025
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR05
+U 1 1 5D0A154B
+P 1125 7325
+F 0 "#PWR05" H 1125 7075 50  0001 C CNN
+F 1 "GND" H 1130 7152 50  0000 C CNN
+F 2 "" H 1125 7325 50  0001 C CNN
+F 3 "" H 1125 7325 50  0001 C CNN
+	1    1125 7325
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG02
+U 1 1 5D0944AE
+P 5775 6750
+F 0 "#FLG02" H 5775 6825 50  0001 C CNN
+F 1 "PWR_FLAG" H 5775 6923 50  0000 C CNN
+F 2 "" H 5775 6750 50  0001 C CNN
+F 3 "~" H 5775 6750 50  0001 C CNN
+	1    5775 6750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG01
+U 1 1 5D093962
+P 5425 6750
+F 0 "#FLG01" H 5425 6825 50  0001 C CNN
+F 1 "PWR_FLAG" H 5425 6923 50  0000 C CNN
+F 2 "" H 5425 6750 50  0001 C CNN
+F 3 "~" H 5425 6750 50  0001 C CNN
+	1    5425 6750
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:VCC #PWR03
+U 1 1 5D0932C7
+P 5425 6750
+F 0 "#PWR03" H 5425 6600 50  0001 C CNN
+F 1 "VCC" H 5442 6923 50  0000 C CNN
+F 2 "" H 5425 6750 50  0001 C CNN
+F 3 "" H 5425 6750 50  0001 C CNN
+	1    5425 6750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR04
+U 1 1 5D092D65
+P 5775 6750
+F 0 "#PWR04" H 5775 6500 50  0001 C CNN
+F 1 "GND" H 5780 6577 50  0000 C CNN
+F 2 "" H 5775 6750 50  0001 C CNN
+F 3 "" H 5775 6750 50  0001 C CNN
+	1    5775 6750
+	1    0    0    -1  
+$EndComp
 Connection ~ 1450 2925
+Wire Wire Line
+	1125 2925 1450 2925
+Text GLabel 1125 2925 0    50   Input ~ 0
+capslock
+Text GLabel 2050 5375 3    50   Input ~ 0
+capslock
+Text Notes 1675 5250 0    50   ~ 0
+caps
+Text GLabel 1450 5375 1    50   Input ~ 0
+col0
+$Comp
+L kbd:SW_PUSH SW68
+U 1 1 5D96305A
+P 1750 5375
+F 0 "SW68" H 1750 5720 50  0000 C CNN
+F 1 "SW_PUSH" H 1750 5629 50  0000 C CNN
+F 2 "Keebio-Parts:MX-Alps-Choc-1U-NoLED" H 1750 5538 50  0001 C CNN
+F 3 "" H 1750 5375 50  0000 C CNN
+	1    1750 5375
+	1    0    0    -1  
+$EndComp
+Connection ~ 4825 4375
+Wire Wire Line
+	4825 4300 4825 4375
+Connection ~ 4150 4375
+Wire Wire Line
+	4150 4300 4150 4375
+Text GLabel 4150 4300 1    50   Input ~ 0
+ls
+Text GLabel 4825 4300 1    50   Input ~ 0
+rs
+Text GLabel 4825 5375 3    50   Input ~ 0
+rs
+Text Notes 5025 5250 0    50   ~ 0
+r-spc
+Text GLabel 5425 5375 1    50   Input ~ 0
+col2
+$Comp
+L kbd:SW_PUSH SW70
+U 1 1 5D2D2364
+P 5125 5375
+F 0 "SW70" H 5125 5720 50  0000 C CNN
+F 1 "SW_PUSH" H 5125 5629 50  0000 C CNN
+F 2 "kana60:MX-Alps-Choc-2U-NoLED" H 5125 5538 50  0001 C CNN
+F 3 "" H 5125 5375 50  0000 C CNN
+	1    5125 5375
+	1    0    0    -1  
+$EndComp
+Text GLabel 4150 5375 3    50   Input ~ 0
+ls
+Text Notes 4350 5250 0    50   ~ 0
+l-spc
+Text GLabel 4750 5375 1    50   Input ~ 0
+col2
+$Comp
+L kbd:SW_PUSH SW69
+U 1 1 5D2C30F4
+P 4450 5375
+F 0 "SW69" H 4450 5720 50  0000 C CNN
+F 1 "SW_PUSH" H 4450 5629 50  0000 C CNN
+F 2 "Keebio-Parts:MX-Alps-Choc-1U-NoLED" H 4450 5538 50  0001 C CNN
+F 3 "" H 4450 5375 50  0000 C CNN
+	1    4450 5375
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
