@@ -2402,11 +2402,11 @@ Text GLabel 4150 4300 1    50   Input ~ 0
 ls
 Text GLabel 4825 4300 1    50   Input ~ 0
 rs
-Text GLabel 4825 5375 3    50   Input ~ 0
+Text GLabel 5425 5375 3    50   Input ~ 0
 rs
 Text Notes 5025 5250 0    50   ~ 0
 r-spc
-Text GLabel 5425 5375 1    50   Input ~ 0
+Text GLabel 4825 5375 1    50   Input ~ 0
 col2
 $Comp
 L kbd:SW_PUSH SW70
@@ -2419,11 +2419,11 @@ F 3 "" H 5125 5375 50  0000 C CNN
 	1    5125 5375
 	1    0    0    -1  
 $EndComp
-Text GLabel 4150 5375 3    50   Input ~ 0
+Text GLabel 4750 5375 3    50   Input ~ 0
 ls
 Text Notes 4350 5250 0    50   ~ 0
 l-spc
-Text GLabel 4750 5375 1    50   Input ~ 0
+Text GLabel 4150 5375 1    50   Input ~ 0
 col2
 $Comp
 L kbd:SW_PUSH SW69
