@@ -301,7 +301,7 @@
   (module Keebio-Parts:Hybrid_PCB_100H (layer F.Cu) (tedit 549A0505) (tstamp 5D38B70E)
     (at 68.286488 106.4127)
     (path /5D13296C)
-    (fp_text reference SW44 (at 0 3.175) (layer F.SilkS)
+    (fp_text reference SW44 (at 0 3.175) (layer F.SilkS) hide
       (effects (font (size 1.27 1.524) (thickness 0.2032)))
     )
     (fp_text value SW_PUSH (at 0 5.08) (layer F.SilkS) hide
@@ -342,7 +342,7 @@
   (module Keebio-Parts:Hybrid_PCB_100H (layer F.Cu) (tedit 549A0505) (tstamp 5D38B65F)
     (at 268.311488 87.3627)
     (path /5D3A8517)
-    (fp_text reference SW41 (at 0 3.175) (layer F.SilkS)
+    (fp_text reference SW41 (at 0 3.175) (layer F.SilkS) hide
       (effects (font (size 1.27 1.524) (thickness 0.2032)))
     )
     (fp_text value SW_PUSH (at 0 5.08) (layer F.SilkS) hide
@@ -383,7 +383,7 @@
   (module Keebio-Parts:Hybrid_PCB_100H (layer F.Cu) (tedit 549A0505) (tstamp 5D38B333)
     (at 254.023988 49.2627)
     (path /5D3A84CF)
-    (fp_text reference SW13 (at 0 3.175) (layer F.SilkS)
+    (fp_text reference SW13 (at 0 3.175) (layer F.SilkS) hide
       (effects (font (size 1.27 1.524) (thickness 0.2032)))
     )
     (fp_text value SW_PUSH (at 0 5.08) (layer F.SilkS) hide
@@ -424,7 +424,7 @@
   (module Keebio-Parts:Hybrid_PCB_100H (layer F.Cu) (tedit 549A0505) (tstamp 5D38B72B)
     (at 87.336488 106.4127)
     (path /5D14F197)
-    (fp_text reference SW45 (at 0 3.175) (layer F.SilkS)
+    (fp_text reference SW45 (at 0 3.175) (layer F.SilkS) hide
       (effects (font (size 1.27 1.524) (thickness 0.2032)))
     )
     (fp_text value SW_PUSH (at 0 5.08) (layer F.SilkS) hide
@@ -465,7 +465,7 @@
   (module Keebio-Parts:Hybrid_PCB_100H (layer F.Cu) (tedit 549A0505) (tstamp 5D38B3A7)
     (at 73.048988 68.3127)
     (path /5D14F167)
-    (fp_text reference SW17 (at 0 3.175) (layer F.SilkS)
+    (fp_text reference SW17 (at 0 3.175) (layer F.SilkS) hide
       (effects (font (size 1.27 1.524) (thickness 0.2032)))
     )
     (fp_text value SW_PUSH (at 0 5.08) (layer F.SilkS) hide
@@ -746,7 +746,7 @@
     (descr "Mounting Hole 2.2mm, M2")
     (tags "mounting hole 2.2mm m2")
     (attr virtual)
-    (fp_text reference REF9 (at 0 -3.2) (layer F.SilkS)
+    (fp_text reference REF9 (at 0 -3.2) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value MountingHole_2.2mm_M2_Pad (at 0 3.2) (layer F.Fab)
@@ -765,7 +765,7 @@
     (descr "Mounting Hole 2.2mm, M2")
     (tags "mounting hole 2.2mm m2")
     (attr virtual)
-    (fp_text reference REF8 (at 0 -3.2) (layer F.SilkS)
+    (fp_text reference REF8 (at 0 -3.2) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value MountingHole_2.2mm_M2_Pad (at 0 3.2) (layer F.Fab)
@@ -784,7 +784,7 @@
     (descr "Mounting Hole 2.2mm, M2")
     (tags "mounting hole 2.2mm m2")
     (attr virtual)
-    (fp_text reference REF6 (at 0 -3.2) (layer F.SilkS)
+    (fp_text reference REF6 (at 0 -3.2) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value MountingHole_2.2mm_M2_Pad (at 0 3.2) (layer F.Fab)
@@ -803,7 +803,7 @@
     (descr "Mounting Hole 2.2mm, M2")
     (tags "mounting hole 2.2mm m2")
     (attr virtual)
-    (fp_text reference REF7 (at 0 -3.2) (layer F.SilkS)
+    (fp_text reference REF7 (at 0 -3.2) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value MountingHole_2.2mm_M2_Pad (at 0 3.2) (layer F.Fab)
@@ -822,7 +822,7 @@
     (descr "Mounting Hole 2.2mm, M2")
     (tags "mounting hole 2.2mm m2")
     (attr virtual)
-    (fp_text reference REF5 (at 0 -3.2) (layer F.SilkS)
+    (fp_text reference REF5 (at 0 -3.2) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value MountingHole_2.2mm_M2_Pad (at 0 3.2) (layer F.Fab)
@@ -841,7 +841,7 @@
     (descr "Mounting Hole 2.2mm, M2")
     (tags "mounting hole 2.2mm m2")
     (attr virtual)
-    (fp_text reference REF1 (at 0 -3.2) (layer F.SilkS)
+    (fp_text reference REF1 (at 0 -3.2) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value MountingHole_2.2mm_M2_Pad (at 0 3.2) (layer F.Fab)
@@ -860,7 +860,7 @@
     (descr "Mounting Hole 2.2mm, M2")
     (tags "mounting hole 2.2mm m2")
     (attr virtual)
-    (fp_text reference REF3 (at 0 -3.2) (layer F.SilkS)
+    (fp_text reference REF3 (at 0 -3.2) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value MountingHole_2.2mm_M2_Pad (at 0 3.2) (layer F.Fab)
@@ -879,7 +879,7 @@
     (descr "Mounting Hole 2.2mm, M2")
     (tags "mounting hole 2.2mm m2")
     (attr virtual)
-    (fp_text reference REF2 (at 0 -3.2) (layer F.SilkS)
+    (fp_text reference REF2 (at 0 -3.2) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value MountingHole_2.2mm_M2_Pad (at 0 3.2) (layer F.Fab)
@@ -898,7 +898,7 @@
     (descr "Mounting Hole 2.2mm, M2")
     (tags "mounting hole 2.2mm m2")
     (attr virtual)
-    (fp_text reference REF4 (at 0 -3.2) (layer F.SilkS)
+    (fp_text reference REF4 (at 0 -3.2) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value MountingHole_2.2mm_M2_Pad (at 0 3.2) (layer F.Fab)
@@ -948,7 +948,7 @@
   (module Keebio-Parts:Hybrid_PCB_100H (layer F.Cu) (tedit 549A0505) (tstamp 5D38B1D7)
     (at 25.423988 49.2627)
     (path /5D127B74)
-    (fp_text reference SW1 (at 0 3.175) (layer F.SilkS)
+    (fp_text reference SW1 (at 0 3.175) (layer F.SilkS) hide
       (effects (font (size 1.27 1.524) (thickness 0.2032)))
     )
     (fp_text value SW_PUSH (at 0 5.08) (layer F.SilkS) hide
@@ -989,7 +989,7 @@
   (module Keebio-Parts:Hybrid_PCB_100H (layer F.Cu) (tedit 549A0505) (tstamp 5D38B1F4)
     (at 44.473988 49.2627)
     (path /5D12DB19)
-    (fp_text reference SW2 (at 0 3.175) (layer F.SilkS)
+    (fp_text reference SW2 (at 0 3.175) (layer F.SilkS) hide
       (effects (font (size 1.27 1.524) (thickness 0.2032)))
     )
     (fp_text value SW_PUSH (at 0 5.08) (layer F.SilkS) hide
@@ -1030,7 +1030,7 @@
   (module Keebio-Parts:Hybrid_PCB_100H (layer F.Cu) (tedit 549A0505) (tstamp 5D38B211)
     (at 63.523988 49.2627)
     (path /5D14F15B)
-    (fp_text reference SW3 (at 0 3.175) (layer F.SilkS)
+    (fp_text reference SW3 (at 0 3.175) (layer F.SilkS) hide
       (effects (font (size 1.27 1.524) (thickness 0.2032)))
     )
     (fp_text value SW_PUSH (at 0 5.08) (layer F.SilkS) hide
@@ -1071,7 +1071,7 @@
   (module Keebio-Parts:Hybrid_PCB_100H (layer F.Cu) (tedit 549A0505) (tstamp 5D38B22E)
     (at 82.573988 49.2627)
     (path /5D14F173)
-    (fp_text reference SW4 (at 0 3.175) (layer F.SilkS)
+    (fp_text reference SW4 (at 0 3.175) (layer F.SilkS) hide
       (effects (font (size 1.27 1.524) (thickness 0.2032)))
     )
     (fp_text value SW_PUSH (at 0 5.08) (layer F.SilkS) hide
@@ -1112,7 +1112,7 @@
   (module Keebio-Parts:Hybrid_PCB_100H (layer F.Cu) (tedit 549A0505) (tstamp 5D38B24B)
     (at 101.623988 49.2627)
     (path /5D164F4C)
-    (fp_text reference SW5 (at 0 3.175) (layer F.SilkS)
+    (fp_text reference SW5 (at 0 3.175) (layer F.SilkS) hide
       (effects (font (size 1.27 1.524) (thickness 0.2032)))
     )
     (fp_text value SW_PUSH (at 0 5.08) (layer F.SilkS) hide
@@ -1153,7 +1153,7 @@
   (module Keebio-Parts:Hybrid_PCB_100H (layer F.Cu) (tedit 549A0505) (tstamp 5D38B268)
     (at 120.673988 49.2627)
     (path /5D164F64)
-    (fp_text reference SW6 (at 0 3.175) (layer F.SilkS)
+    (fp_text reference SW6 (at 0 3.175) (layer F.SilkS) hide
       (effects (font (size 1.27 1.524) (thickness 0.2032)))
     )
     (fp_text value SW_PUSH (at 0 5.08) (layer F.SilkS) hide
@@ -1194,7 +1194,7 @@
   (module Keebio-Parts:Hybrid_PCB_100H (layer F.Cu) (tedit 549A0505) (tstamp 5D38B285)
     (at 139.723988 49.2627)
     (path /5D164FC4)
-    (fp_text reference SW7 (at 0 3.175) (layer F.SilkS)
+    (fp_text reference SW7 (at 0 3.175) (layer F.SilkS) hide
       (effects (font (size 1.27 1.524) (thickness 0.2032)))
     )
     (fp_text value SW_PUSH (at 0 5.08) (layer F.SilkS) hide
@@ -1235,7 +1235,7 @@
   (module Keebio-Parts:Hybrid_PCB_100H (layer F.Cu) (tedit 549A0505) (tstamp 5D38B2A2)
     (at 158.773988 49.2627)
     (path /5D164FDC)
-    (fp_text reference SW8 (at 0 3.175) (layer F.SilkS)
+    (fp_text reference SW8 (at 0 3.175) (layer F.SilkS) hide
       (effects (font (size 1.27 1.524) (thickness 0.2032)))
     )
     (fp_text value SW_PUSH (at 0 5.08) (layer F.SilkS) hide
@@ -1276,7 +1276,7 @@
   (module Keebio-Parts:Hybrid_PCB_100H (layer F.Cu) (tedit 549A0505) (tstamp 5D38B2BF)
     (at 177.823988 49.2627)
     (path /5D3A83DF)
-    (fp_text reference SW9 (at 0 3.175) (layer F.SilkS)
+    (fp_text reference SW9 (at 0 3.175) (layer F.SilkS) hide
       (effects (font (size 1.27 1.524) (thickness 0.2032)))
     )
     (fp_text value SW_PUSH (at 0 5.08) (layer F.SilkS) hide
@@ -1317,7 +1317,7 @@
   (module Keebio-Parts:Hybrid_PCB_100H (layer F.Cu) (tedit 549A0505) (tstamp 5D38B2DC)
     (at 196.873988 49.2627)
     (path /5D3A83F7)
-    (fp_text reference SW10 (at 0 3.175) (layer F.SilkS)
+    (fp_text reference SW10 (at 0 3.175) (layer F.SilkS) hide
       (effects (font (size 1.27 1.524) (thickness 0.2032)))
     )
     (fp_text value SW_PUSH (at 0 5.08) (layer F.SilkS) hide
@@ -1358,7 +1358,7 @@
   (module Keebio-Parts:Hybrid_PCB_100H (layer F.Cu) (tedit 549A0505) (tstamp 5D38B2F9)
     (at 215.923988 49.2627)
     (path /5D3A8457)
-    (fp_text reference SW11 (at 0 3.175) (layer F.SilkS)
+    (fp_text reference SW11 (at 0 3.175) (layer F.SilkS) hide
       (effects (font (size 1.27 1.524) (thickness 0.2032)))
     )
     (fp_text value SW_PUSH (at 0 5.08) (layer F.SilkS) hide
@@ -1399,7 +1399,7 @@
   (module Keebio-Parts:Hybrid_PCB_100H (layer F.Cu) (tedit 549A0505) (tstamp 5D38B316)
     (at 234.973988 49.2627)
     (path /5D3A846F)
-    (fp_text reference SW12 (at 0 3.175) (layer F.SilkS)
+    (fp_text reference SW12 (at 0 3.175) (layer F.SilkS) hide
       (effects (font (size 1.27 1.524) (thickness 0.2032)))
     )
     (fp_text value SW_PUSH (at 0 5.08) (layer F.SilkS) hide
@@ -1440,7 +1440,7 @@
   (module Keebio-Parts:Hybrid_PCB_100H (layer F.Cu) (tedit 549A0505) (tstamp 5D38B350)
     (at 273.073988 49.2627)
     (path /5D3A84E7)
-    (fp_text reference SW14 (at 0 3.175) (layer F.SilkS)
+    (fp_text reference SW14 (at 0 3.175) (layer F.SilkS) hide
       (effects (font (size 1.27 1.524) (thickness 0.2032)))
     )
     (fp_text value SW_PUSH (at 0 5.08) (layer F.SilkS) hide
@@ -1481,7 +1481,7 @@
   (module Keebio-Parts:Hybrid_PCB_100H (layer F.Cu) (tedit 549A0505) (tstamp 5D38B38A)
     (at 53.998988 68.3127)
     (path /5D12DB25)
-    (fp_text reference SW16 (at 0 3.175) (layer F.SilkS)
+    (fp_text reference SW16 (at 0 3.175) (layer F.SilkS) hide
       (effects (font (size 1.27 1.524) (thickness 0.2032)))
     )
     (fp_text value SW_PUSH (at 0 5.08) (layer F.SilkS) hide
@@ -1522,7 +1522,7 @@
   (module Keebio-Parts:Hybrid_PCB_100H (layer F.Cu) (tedit 549A0505) (tstamp 5D38B3C4)
     (at 92.098988 68.3127)
     (path /5D14F17F)
-    (fp_text reference SW18 (at 0 3.175) (layer F.SilkS)
+    (fp_text reference SW18 (at 0 3.175) (layer F.SilkS) hide
       (effects (font (size 1.27 1.524) (thickness 0.2032)))
     )
     (fp_text value SW_PUSH (at 0 5.08) (layer F.SilkS) hide
@@ -1563,7 +1563,7 @@
   (module Keebio-Parts:Hybrid_PCB_100H (layer F.Cu) (tedit 549A0505) (tstamp 5D38B3E1)
     (at 111.148988 68.3127)
     (path /5D164F58)
-    (fp_text reference SW19 (at 0 3.175) (layer F.SilkS)
+    (fp_text reference SW19 (at 0 3.175) (layer F.SilkS) hide
       (effects (font (size 1.27 1.524) (thickness 0.2032)))
     )
     (fp_text value SW_PUSH (at 0 5.08) (layer F.SilkS) hide
@@ -1604,7 +1604,7 @@
   (module Keebio-Parts:Hybrid_PCB_100H (layer F.Cu) (tedit 549A0505) (tstamp 5D38B3FE)
     (at 130.198988 68.3127)
     (path /5D164F70)
-    (fp_text reference SW20 (at 0 3.175) (layer F.SilkS)
+    (fp_text reference SW20 (at 0 3.175) (layer F.SilkS) hide
       (effects (font (size 1.27 1.524) (thickness 0.2032)))
     )
     (fp_text value SW_PUSH (at 0 5.08) (layer F.SilkS) hide
@@ -1645,7 +1645,7 @@
   (module Keebio-Parts:Hybrid_PCB_100H (layer F.Cu) (tedit 549A0505) (tstamp 5D38B41B)
     (at 149.248988 68.3127)
     (path /5D164FD0)
-    (fp_text reference SW21 (at 0 3.175) (layer F.SilkS)
+    (fp_text reference SW21 (at 0 3.175) (layer F.SilkS) hide
       (effects (font (size 1.27 1.524) (thickness 0.2032)))
     )
     (fp_text value SW_PUSH (at 0 5.08) (layer F.SilkS) hide
@@ -1686,7 +1686,7 @@
   (module Keebio-Parts:Hybrid_PCB_100H (layer F.Cu) (tedit 549A0505) (tstamp 5D38B438)
     (at 168.298988 68.3127)
     (path /5D3A83EB)
-    (fp_text reference SW22 (at 0 3.175) (layer F.SilkS)
+    (fp_text reference SW22 (at 0 3.175) (layer F.SilkS) hide
       (effects (font (size 1.27 1.524) (thickness 0.2032)))
     )
     (fp_text value SW_PUSH (at 0 5.08) (layer F.SilkS) hide
@@ -1727,7 +1727,7 @@
   (module Keebio-Parts:Hybrid_PCB_100H (layer F.Cu) (tedit 549A0505) (tstamp 5D38B455)
     (at 187.348988 68.3127)
     (path /5D3A8403)
-    (fp_text reference SW23 (at 0 3.175) (layer F.SilkS)
+    (fp_text reference SW23 (at 0 3.175) (layer F.SilkS) hide
       (effects (font (size 1.27 1.524) (thickness 0.2032)))
     )
     (fp_text value SW_PUSH (at 0 5.08) (layer F.SilkS) hide
@@ -1768,7 +1768,7 @@
   (module Keebio-Parts:Hybrid_PCB_100H (layer F.Cu) (tedit 549A0505) (tstamp 5D38B472)
     (at 206.398988 68.3127)
     (path /5D3A8463)
-    (fp_text reference SW24 (at 0 3.175) (layer F.SilkS)
+    (fp_text reference SW24 (at 0 3.175) (layer F.SilkS) hide
       (effects (font (size 1.27 1.524) (thickness 0.2032)))
     )
     (fp_text value SW_PUSH (at 0 5.08) (layer F.SilkS) hide
@@ -1809,7 +1809,7 @@
   (module Keebio-Parts:Hybrid_PCB_100H (layer F.Cu) (tedit 549A0505) (tstamp 5D38B48F)
     (at 225.448988 68.3127)
     (path /5D3A847B)
-    (fp_text reference SW25 (at 0 3.175) (layer F.SilkS)
+    (fp_text reference SW25 (at 0 3.175) (layer F.SilkS) hide
       (effects (font (size 1.27 1.524) (thickness 0.2032)))
     )
     (fp_text value SW_PUSH (at 0 5.08) (layer F.SilkS) hide
@@ -1850,7 +1850,7 @@
   (module Keebio-Parts:Hybrid_PCB_100H (layer F.Cu) (tedit 549A0505) (tstamp 5D38B4AC)
     (at 244.498988 68.3127)
     (path /5D3A84DB)
-    (fp_text reference SW26 (at 0 3.175) (layer F.SilkS)
+    (fp_text reference SW26 (at 0 3.175) (layer F.SilkS) hide
       (effects (font (size 1.27 1.524) (thickness 0.2032)))
     )
     (fp_text value SW_PUSH (at 0 5.08) (layer F.SilkS) hide
@@ -1891,7 +1891,7 @@
   (module Keebio-Parts:Hybrid_PCB_100H (layer F.Cu) (tedit 549A0505) (tstamp 5D38B4C9)
     (at 263.548988 68.3127)
     (path /5D3A84F3)
-    (fp_text reference SW27 (at 0 3.175) (layer F.SilkS)
+    (fp_text reference SW27 (at 0 3.175) (layer F.SilkS) hide
       (effects (font (size 1.27 1.524) (thickness 0.2032)))
     )
     (fp_text value SW_PUSH (at 0 5.08) (layer F.SilkS) hide
@@ -1932,7 +1932,7 @@
   (module Keebio-Parts:Hybrid_PCB_100H (layer F.Cu) (tedit 549A0505) (tstamp 5D38B4E6)
     (at 292.123988 49.2627)
     (path /5D3A8547)
-    (fp_text reference SW28 (at 0 3.175) (layer F.SilkS)
+    (fp_text reference SW28 (at 0 3.175) (layer F.SilkS) hide
       (effects (font (size 1.27 1.524) (thickness 0.2032)))
     )
     (fp_text value SW_PUSH (at 0 5.08) (layer F.SilkS) hide
@@ -1973,7 +1973,7 @@
   (module Keebio-Parts:Hybrid_PCB_100H (layer F.Cu) (tedit 549A0505) (tstamp 5D38B520)
     (at 58.761488 87.3627)
     (path /5D132960)
-    (fp_text reference SW30 (at 0 3.175) (layer F.SilkS)
+    (fp_text reference SW30 (at 0 3.175) (layer F.SilkS) hide
       (effects (font (size 1.27 1.524) (thickness 0.2032)))
     )
     (fp_text value SW_PUSH (at 0 5.08) (layer F.SilkS) hide
@@ -2014,7 +2014,7 @@
   (module Keebio-Parts:Hybrid_PCB_100H (layer F.Cu) (tedit 549A0505) (tstamp 5D38B53D)
     (at 77.811488 87.3627)
     (path /5D14F18B)
-    (fp_text reference SW31 (at 0 3.175) (layer F.SilkS)
+    (fp_text reference SW31 (at 0 3.175) (layer F.SilkS) hide
       (effects (font (size 1.27 1.524) (thickness 0.2032)))
     )
     (fp_text value SW_PUSH (at 0 5.08) (layer F.SilkS) hide
@@ -2055,7 +2055,7 @@
   (module Keebio-Parts:Hybrid_PCB_100H (layer F.Cu) (tedit 549A0505) (tstamp 5D38B55A)
     (at 96.861488 87.3627)
     (path /5D14F1A3)
-    (fp_text reference SW32 (at 0 3.175) (layer F.SilkS)
+    (fp_text reference SW32 (at 0 3.175) (layer F.SilkS) hide
       (effects (font (size 1.27 1.524) (thickness 0.2032)))
     )
     (fp_text value SW_PUSH (at 0 5.08) (layer F.SilkS) hide
@@ -2096,7 +2096,7 @@
   (module Keebio-Parts:Hybrid_PCB_100H (layer F.Cu) (tedit 549A0505) (tstamp 5D38B577)
     (at 115.911488 87.3627)
     (path /5D164F7C)
-    (fp_text reference SW33 (at 0 3.175) (layer F.SilkS)
+    (fp_text reference SW33 (at 0 3.175) (layer F.SilkS) hide
       (effects (font (size 1.27 1.524) (thickness 0.2032)))
     )
     (fp_text value SW_PUSH (at 0 5.08) (layer F.SilkS) hide
@@ -2137,7 +2137,7 @@
   (module Keebio-Parts:Hybrid_PCB_100H (layer F.Cu) (tedit 549A0505) (tstamp 5D38B594)
     (at 135.049321 87.3627)
     (path /5D164F94)
-    (fp_text reference SW34 (at 0 3.175) (layer F.SilkS)
+    (fp_text reference SW34 (at 0 3.175) (layer F.SilkS) hide
       (effects (font (size 1.27 1.524) (thickness 0.2032)))
     )
     (fp_text value SW_PUSH (at 0 5.08) (layer F.SilkS) hide
@@ -2178,7 +2178,7 @@
   (module Keebio-Parts:Hybrid_PCB_100H (layer F.Cu) (tedit 549A0505) (tstamp 5D38B5B1)
     (at 154.011488 87.3627)
     (path /5D164FF4)
-    (fp_text reference SW35 (at 0 3.175) (layer F.SilkS)
+    (fp_text reference SW35 (at 0 3.175) (layer F.SilkS) hide
       (effects (font (size 1.27 1.524) (thickness 0.2032)))
     )
     (fp_text value SW_PUSH (at 0 5.08) (layer F.SilkS) hide
@@ -2219,7 +2219,7 @@
   (module Keebio-Parts:Hybrid_PCB_100H (layer F.Cu) (tedit 549A0505) (tstamp 5D38B5CE)
     (at 173.061488 87.3627)
     (path /5D3A840F)
-    (fp_text reference SW36 (at 0 3.175) (layer F.SilkS)
+    (fp_text reference SW36 (at 0 3.175) (layer F.SilkS) hide
       (effects (font (size 1.27 1.524) (thickness 0.2032)))
     )
     (fp_text value SW_PUSH (at 0 5.08) (layer F.SilkS) hide
@@ -2260,7 +2260,7 @@
   (module Keebio-Parts:Hybrid_PCB_100H (layer F.Cu) (tedit 549A0505) (tstamp 5D38B5EB)
     (at 192.111488 87.3627)
     (path /5D3A8427)
-    (fp_text reference SW37 (at 0 3.175) (layer F.SilkS)
+    (fp_text reference SW37 (at 0 3.175) (layer F.SilkS) hide
       (effects (font (size 1.27 1.524) (thickness 0.2032)))
     )
     (fp_text value SW_PUSH (at 0 5.08) (layer F.SilkS) hide
@@ -2301,7 +2301,7 @@
   (module Keebio-Parts:Hybrid_PCB_100H (layer F.Cu) (tedit 549A0505) (tstamp 5D38B608)
     (at 211.161488 87.3627)
     (path /5D3A8487)
-    (fp_text reference SW38 (at 0 3.175) (layer F.SilkS)
+    (fp_text reference SW38 (at 0 3.175) (layer F.SilkS) hide
       (effects (font (size 1.27 1.524) (thickness 0.2032)))
     )
     (fp_text value SW_PUSH (at 0 5.08) (layer F.SilkS) hide
@@ -2342,7 +2342,7 @@
   (module Keebio-Parts:Hybrid_PCB_100H (layer F.Cu) (tedit 549A0505) (tstamp 5D38B625)
     (at 230.211488 87.3627)
     (path /5D3A849F)
-    (fp_text reference SW39 (at 0 3.175) (layer F.SilkS)
+    (fp_text reference SW39 (at 0 3.175) (layer F.SilkS) hide
       (effects (font (size 1.27 1.524) (thickness 0.2032)))
     )
     (fp_text value SW_PUSH (at 0 5.08) (layer F.SilkS) hide
@@ -2383,7 +2383,7 @@
   (module Keebio-Parts:Hybrid_PCB_100H (layer F.Cu) (tedit 549A0505) (tstamp 5D38B642)
     (at 249.261488 87.3627)
     (path /5D3A84FF)
-    (fp_text reference SW40 (at 0 3.175) (layer F.SilkS)
+    (fp_text reference SW40 (at 0 3.175) (layer F.SilkS) hide
       (effects (font (size 1.27 1.524) (thickness 0.2032)))
     )
     (fp_text value SW_PUSH (at 0 5.08) (layer F.SilkS) hide
@@ -2424,7 +2424,7 @@
   (module Keebio-Parts:Hybrid_PCB_200H (layer F.Cu) (tedit 4FDE2A7B) (tstamp 5D38B67C)
     (at 289.742738 77.8377 270)
     (path /5D3A855F)
-    (fp_text reference SW42 (at 0 3.175 90) (layer F.SilkS)
+    (fp_text reference SW42 (at 0 3.175 90) (layer F.SilkS) hide
       (effects (font (size 1.27 1.524) (thickness 0.2032)))
     )
     (fp_text value SW_PUSH (at 0 5.08 90) (layer F.SilkS) hide
@@ -2509,7 +2509,7 @@
   (module Keebio-Parts:Hybrid_PCB_200H (layer F.Cu) (tedit 4FDE2A7B) (tstamp 5D38B6C5)
     (at 37.330238 106.4127)
     (path /5D132954)
-    (fp_text reference SW43 (at 0 3.175) (layer F.SilkS)
+    (fp_text reference SW43 (at 0 3.175) (layer F.SilkS) hide
       (effects (font (size 1.27 1.524) (thickness 0.2032)))
     )
     (fp_text value SW_PUSH (at 0 5.08) (layer F.SilkS) hide
@@ -2594,7 +2594,7 @@
   (module Keebio-Parts:Hybrid_PCB_100H (layer F.Cu) (tedit 549A0505) (tstamp 5D38B748)
     (at 106.386488 106.4127)
     (path /5D14F1AF)
-    (fp_text reference SW46 (at 0 3.175) (layer F.SilkS)
+    (fp_text reference SW46 (at 0 3.175) (layer F.SilkS) hide
       (effects (font (size 1.27 1.524) (thickness 0.2032)))
     )
     (fp_text value SW_PUSH (at 0 5.08) (layer F.SilkS) hide
@@ -2635,7 +2635,7 @@
   (module Keebio-Parts:Hybrid_PCB_100H (layer F.Cu) (tedit 549A0505) (tstamp 5D38B765)
     (at 125.436488 106.4127)
     (path /5D164F88)
-    (fp_text reference SW47 (at 0 3.175) (layer F.SilkS)
+    (fp_text reference SW47 (at 0 3.175) (layer F.SilkS) hide
       (effects (font (size 1.27 1.524) (thickness 0.2032)))
     )
     (fp_text value SW_PUSH (at 0 5.08) (layer F.SilkS) hide
@@ -2676,7 +2676,7 @@
   (module Keebio-Parts:Hybrid_PCB_100H (layer F.Cu) (tedit 549A0505) (tstamp 5D38B782)
     (at 144.486488 106.4127)
     (path /5D164FA0)
-    (fp_text reference SW48 (at 0 3.175) (layer F.SilkS)
+    (fp_text reference SW48 (at 0 3.175) (layer F.SilkS) hide
       (effects (font (size 1.27 1.524) (thickness 0.2032)))
     )
     (fp_text value SW_PUSH (at 0 5.08) (layer F.SilkS) hide
@@ -2717,7 +2717,7 @@
   (module Keebio-Parts:Hybrid_PCB_100H (layer F.Cu) (tedit 549A0505) (tstamp 5D38B79F)
     (at 163.536488 106.4127)
     (path /5D165000)
-    (fp_text reference SW49 (at 0 3.175) (layer F.SilkS)
+    (fp_text reference SW49 (at 0 3.175) (layer F.SilkS) hide
       (effects (font (size 1.27 1.524) (thickness 0.2032)))
     )
     (fp_text value SW_PUSH (at 0 5.08) (layer F.SilkS) hide
@@ -2758,7 +2758,7 @@
   (module Keebio-Parts:Hybrid_PCB_100H (layer F.Cu) (tedit 549A0505) (tstamp 5D38B7BC)
     (at 182.586488 106.4127)
     (path /5D3A841B)
-    (fp_text reference SW50 (at 0 3.175) (layer F.SilkS)
+    (fp_text reference SW50 (at 0 3.175) (layer F.SilkS) hide
       (effects (font (size 1.27 1.524) (thickness 0.2032)))
     )
     (fp_text value SW_PUSH (at 0 5.08) (layer F.SilkS) hide
@@ -2799,7 +2799,7 @@
   (module Keebio-Parts:Hybrid_PCB_100H (layer F.Cu) (tedit 549A0505) (tstamp 5D38B7D9)
     (at 201.636488 106.4127)
     (path /5D3A8433)
-    (fp_text reference SW51 (at 0 3.175) (layer F.SilkS)
+    (fp_text reference SW51 (at 0 3.175) (layer F.SilkS) hide
       (effects (font (size 1.27 1.524) (thickness 0.2032)))
     )
     (fp_text value SW_PUSH (at 0 5.08) (layer F.SilkS) hide
@@ -2840,7 +2840,7 @@
   (module Keebio-Parts:Hybrid_PCB_100H (layer F.Cu) (tedit 549A0505) (tstamp 5D38B7F6)
     (at 220.686488 106.4127)
     (path /5D3A8493)
-    (fp_text reference SW52 (at 0 3.175) (layer F.SilkS)
+    (fp_text reference SW52 (at 0 3.175) (layer F.SilkS) hide
       (effects (font (size 1.27 1.524) (thickness 0.2032)))
     )
     (fp_text value SW_PUSH (at 0 5.08) (layer F.SilkS) hide
@@ -2881,7 +2881,7 @@
   (module Keebio-Parts:Hybrid_PCB_100H (layer F.Cu) (tedit 549A0505) (tstamp 5D38B813)
     (at 239.736488 106.4127)
     (path /5D3A84AB)
-    (fp_text reference SW53 (at 0 3.175) (layer F.SilkS)
+    (fp_text reference SW53 (at 0 3.175) (layer F.SilkS) hide
       (effects (font (size 1.27 1.524) (thickness 0.2032)))
     )
     (fp_text value SW_PUSH (at 0 5.08) (layer F.SilkS) hide
@@ -2922,7 +2922,7 @@
   (module Keebio-Parts:Hybrid_PCB_100H (layer F.Cu) (tedit 549A0505) (tstamp 5D38B830)
     (at 258.786488 106.4127)
     (path /5D3A850B)
-    (fp_text reference SW54 (at 0 3.175) (layer F.SilkS)
+    (fp_text reference SW54 (at 0 3.175) (layer F.SilkS) hide
       (effects (font (size 1.27 1.524) (thickness 0.2032)))
     )
     (fp_text value SW_PUSH (at 0 5.08) (layer F.SilkS) hide
@@ -2963,7 +2963,7 @@
   (module Keebio-Parts:Hybrid_PCB_200H (layer F.Cu) (tedit 4FDE2A7B) (tstamp 5D38B8DE)
     (at 130.198988 125.4627)
     (path /5D164FAC)
-    (fp_text reference SW60 (at 0 3.175) (layer F.SilkS)
+    (fp_text reference SW60 (at 0 3.175) (layer F.SilkS) hide
       (effects (font (size 1.27 1.524) (thickness 0.2032)))
     )
     (fp_text value SW_PUSH (at 0 5.08) (layer F.SilkS) hide
@@ -3048,7 +3048,7 @@
   (module Keebio-Parts:Hybrid_PCB_100H (layer F.Cu) (tedit 549A0505) (tstamp 5D38B927)
     (at 163.536488 125.4627)
     (path /5D3A843F)
-    (fp_text reference SW61 (at 0 3.175) (layer F.SilkS)
+    (fp_text reference SW61 (at 0 3.175) (layer F.SilkS) hide
       (effects (font (size 1.27 1.524) (thickness 0.2032)))
     )
     (fp_text value SW_PUSH (at 0 5.08) (layer F.SilkS) hide
@@ -3089,7 +3089,7 @@
   (module Keebio-Parts:Hybrid_PCB_100H (layer F.Cu) (tedit 549A0505) (tstamp 5D38B97E)
     (at 234.973988 125.4627)
     (path /5D3A84C3)
-    (fp_text reference SW64 (at 0 3.175) (layer F.SilkS)
+    (fp_text reference SW64 (at 0 3.175) (layer F.SilkS) hide
       (effects (font (size 1.27 1.524) (thickness 0.2032)))
     )
     (fp_text value SW_PUSH (at 0 5.08) (layer F.SilkS) hide
@@ -3130,7 +3130,7 @@
   (module Keebio-Parts:Hybrid_PCB_100H (layer F.Cu) (tedit 549A0505) (tstamp 5D38B99B)
     (at 254.023988 125.4627)
     (path /5D3A852F)
-    (fp_text reference SW65 (at 0 3.175) (layer F.SilkS)
+    (fp_text reference SW65 (at 0 3.175) (layer F.SilkS) hide
       (effects (font (size 1.27 1.524) (thickness 0.2032)))
     )
     (fp_text value SW_PUSH (at 0 5.08) (layer F.SilkS) hide
@@ -3171,7 +3171,7 @@
   (module Keebio-Parts:Hybrid_PCB_100H (layer F.Cu) (tedit 549A0505) (tstamp 5D38B9B8)
     (at 273.073988 125.4627)
     (path /5D3A853B)
-    (fp_text reference SW66 (at 0 3.175) (layer F.SilkS)
+    (fp_text reference SW66 (at 0 3.175) (layer F.SilkS) hide
       (effects (font (size 1.27 1.524) (thickness 0.2032)))
     )
     (fp_text value SW_PUSH (at 0 5.08) (layer F.SilkS) hide
@@ -3212,7 +3212,7 @@
   (module Keebio-Parts:Hybrid_PCB_100H (layer F.Cu) (tedit 549A0505) (tstamp 5D38B9D5)
     (at 292.123988 125.4627)
     (path /5D23FAD7)
-    (fp_text reference SW67 (at 0 3.175) (layer F.SilkS)
+    (fp_text reference SW67 (at 0 3.175) (layer F.SilkS) hide
       (effects (font (size 1.27 1.524) (thickness 0.2032)))
     )
     (fp_text value SW_PUSH (at 0 5.08) (layer F.SilkS) hide
@@ -3253,7 +3253,7 @@
   (module Keebio-Parts:Hybrid_PCB_100H (layer F.Cu) (tedit 549A0505) (tstamp 5D38BA0F)
     (at 125.436488 125.4627)
     (path /5D2C30F4)
-    (fp_text reference SW69 (at 0 3.175) (layer F.SilkS)
+    (fp_text reference SW69 (at 0 3.175) (layer F.SilkS) hide
       (effects (font (size 1.27 1.524) (thickness 0.2032)))
     )
     (fp_text value SW_PUSH (at 0 5.08) (layer F.SilkS) hide
@@ -3294,7 +3294,7 @@
   (module Keebio-Parts:Hybrid_PCB_200H (layer F.Cu) (tedit 4FDE2A7B) (tstamp 5D38BA2C)
     (at 158.773988 125.4627)
     (path /5D2D2364)
-    (fp_text reference SW70 (at 0 3.175) (layer F.SilkS)
+    (fp_text reference SW70 (at 0 3.175) (layer F.SilkS) hide
       (effects (font (size 1.27 1.524) (thickness 0.2032)))
     )
     (fp_text value SW_PUSH (at 0 5.08) (layer F.SilkS) hide
@@ -3379,7 +3379,7 @@
   (module Keebio-Parts:Hybrid_PCB_125H (layer F.Cu) (tedit 549A051E) (tstamp 5D38C0CC)
     (at 27.805238 125.4627)
     (path /5D13C424)
-    (fp_text reference SW56 (at 0 3.175) (layer F.SilkS)
+    (fp_text reference SW56 (at 0 3.175) (layer F.SilkS) hide
       (effects (font (size 1.27 1.524) (thickness 0.2032)))
     )
     (fp_text value SW_PUSH (at 0 5.08) (layer F.SilkS) hide
@@ -3420,7 +3420,7 @@
   (module Keebio-Parts:Hybrid_PCB_125H (layer F.Cu) (tedit 549A051E) (tstamp 5D38C0E9)
     (at 51.617738 125.4627)
     (path /5D13C430)
-    (fp_text reference SW57 (at 0 3.175) (layer F.SilkS)
+    (fp_text reference SW57 (at 0 3.175) (layer F.SilkS) hide
       (effects (font (size 1.27 1.524) (thickness 0.2032)))
     )
     (fp_text value SW_PUSH (at 0 5.08) (layer F.SilkS) hide
@@ -3461,7 +3461,7 @@
   (module Keebio-Parts:Hybrid_PCB_125H (layer F.Cu) (tedit 549A051E) (tstamp 5D38C106)
     (at 75.430238 125.4627)
     (path /5D14F1BB)
-    (fp_text reference SW58 (at 0 3.175) (layer F.SilkS)
+    (fp_text reference SW58 (at 0 3.175) (layer F.SilkS) hide
       (effects (font (size 1.27 1.524) (thickness 0.2032)))
     )
     (fp_text value SW_PUSH (at 0 5.08) (layer F.SilkS) hide
@@ -3502,7 +3502,7 @@
   (module Keebio-Parts:Hybrid_PCB_125H (layer F.Cu) (tedit 549A051E) (tstamp 5D38C123)
     (at 99.242738 125.4627)
     (path /5D14F1C7)
-    (fp_text reference SW59 (at 0 3.175) (layer F.SilkS)
+    (fp_text reference SW59 (at 0 3.175) (layer F.SilkS) hide
       (effects (font (size 1.27 1.524) (thickness 0.2032)))
     )
     (fp_text value SW_PUSH (at 0 5.08) (layer F.SilkS) hide
@@ -3543,7 +3543,7 @@
   (module Keebio-Parts:Hybrid_PCB_125H (layer F.Cu) (tedit 549A051E) (tstamp 5D38C140)
     (at 189.730238 125.4627)
     (path /5D3A844B)
-    (fp_text reference SW62 (at 0 3.175) (layer F.SilkS)
+    (fp_text reference SW62 (at 0 3.175) (layer F.SilkS) hide
       (effects (font (size 1.27 1.524) (thickness 0.2032)))
     )
     (fp_text value SW_PUSH (at 0 5.08) (layer F.SilkS) hide
@@ -3584,7 +3584,7 @@
   (module Keebio-Parts:Hybrid_PCB_125H (layer F.Cu) (tedit 549A051E) (tstamp 5D38C15D)
     (at 213.542738 125.4627)
     (path /5D3A84B7)
-    (fp_text reference SW63 (at 0 3.175) (layer F.SilkS)
+    (fp_text reference SW63 (at 0 3.175) (layer F.SilkS) hide
       (effects (font (size 1.27 1.524) (thickness 0.2032)))
     )
     (fp_text value SW_PUSH (at 0 5.08) (layer F.SilkS) hide
@@ -3625,7 +3625,7 @@
   (module Keebio-Parts:Hybrid_PCB_150H (layer F.Cu) (tedit 4FDE2C8B) (tstamp 5D38C228)
     (at 30.186488 68.3127)
     (path /5D12A952)
-    (fp_text reference SW15 (at 0 3.175) (layer F.SilkS)
+    (fp_text reference SW15 (at 0 3.175) (layer F.SilkS) hide
       (effects (font (size 1.27 1.524) (thickness 0.2032)))
     )
     (fp_text value SW_PUSH (at 0 5.08) (layer F.SilkS) hide
@@ -3666,7 +3666,7 @@
   (module Keebio-Parts:Hybrid_PCB_175H (layer F.Cu) (tedit 4FDE2C78) (tstamp 5D38C245)
     (at 32.567738 87.3627)
     (path /5D132948)
-    (fp_text reference SW29 (at 0 3.175) (layer F.SilkS)
+    (fp_text reference SW29 (at 0 3.175) (layer F.SilkS) hide
       (effects (font (size 1.27 1.524) (thickness 0.2032)))
     )
     (fp_text value SW_PUSH (at 0 5.08) (layer F.SilkS) hide
@@ -3707,7 +3707,7 @@
   (module Keebio-Parts:Hybrid_PCB_175H (layer F.Cu) (tedit 4FDE2C78) (tstamp 5D38C2F3)
     (at 284.980238 106.4127)
     (path /5D3A8523)
-    (fp_text reference SW55 (at 0 3.175) (layer F.SilkS)
+    (fp_text reference SW55 (at 0 3.175) (layer F.SilkS) hide
       (effects (font (size 1.27 1.524) (thickness 0.2032)))
     )
     (fp_text value SW_PUSH (at 0 5.08) (layer F.SilkS) hide
@@ -3748,7 +3748,7 @@
   (module Keebio-Parts:Hybrid_PCB_100H (layer F.Cu) (tedit 549A0505) (tstamp 5D38C310)
     (at 27.805238 87.3627)
     (path /5D96305A)
-    (fp_text reference SW68 (at 0 3.175) (layer F.SilkS)
+    (fp_text reference SW68 (at 0 3.175) (layer F.SilkS) hide
       (effects (font (size 1.27 1.524) (thickness 0.2032)))
     )
     (fp_text value SW_PUSH (at 0 5.08) (layer F.SilkS) hide
@@ -3789,7 +3789,7 @@
   (module Keebio-Parts:Diode (layer F.Cu) (tedit 549B02AC) (tstamp 5D49DA62)
     (at 156.59517 29.5777 270)
     (path /5D1276A2)
-    (fp_text reference D1 (at 0 0 90) (layer F.SilkS)
+    (fp_text reference D1 (at 0 0 90) (layer F.SilkS) hide
       (effects (font (size 1.27 1.524) (thickness 0.2032)))
     )
     (fp_text value D (at 0 0 90) (layer F.SilkS) hide
@@ -3813,7 +3813,7 @@
   (module Keebio-Parts:Diode (layer F.Cu) (tedit 549B02AC) (tstamp 5D49D7D3)
     (at 180.08738 29.5777 270)
     (path /5D12DB13)
-    (fp_text reference D2 (at 0 0 90) (layer F.SilkS)
+    (fp_text reference D2 (at 0 0 90) (layer F.SilkS) hide
       (effects (font (size 1.27 1.524) (thickness 0.2032)))
     )
     (fp_text value D (at 0 0 90) (layer F.SilkS) hide
@@ -3837,7 +3837,7 @@
   (module Keebio-Parts:Diode (layer F.Cu) (tedit 549B02AC) (tstamp 5D434224)
     (at 159.9512 29.5777 270)
     (path /5D14F155)
-    (fp_text reference D3 (at 0 0 90) (layer F.SilkS)
+    (fp_text reference D3 (at 0 0 90) (layer F.SilkS) hide
       (effects (font (size 1.27 1.524) (thickness 0.2032)))
     )
     (fp_text value D (at 0 0 90) (layer F.SilkS) hide
@@ -3861,7 +3861,7 @@
   (module Keebio-Parts:Diode (layer F.Cu) (tedit 549B02AC) (tstamp 5D49D7A9)
     (at 183.44341 29.5777 270)
     (path /5D14F16D)
-    (fp_text reference D4 (at 0 0 90) (layer F.SilkS)
+    (fp_text reference D4 (at 0 0 90) (layer F.SilkS) hide
       (effects (font (size 1.27 1.524) (thickness 0.2032)))
     )
     (fp_text value D (at 0 0 90) (layer F.SilkS) hide
@@ -3885,7 +3885,7 @@
   (module Keebio-Parts:Diode (layer F.Cu) (tedit 549B02AC) (tstamp 5D434240)
     (at 163.30723 29.5777 270)
     (path /5D164F46)
-    (fp_text reference D5 (at 0 0 90) (layer F.SilkS)
+    (fp_text reference D5 (at 0 0 90) (layer F.SilkS) hide
       (effects (font (size 1.27 1.524) (thickness 0.2032)))
     )
     (fp_text value D (at 0 0 90) (layer F.SilkS) hide
@@ -3909,7 +3909,7 @@
   (module Keebio-Parts:Diode (layer F.Cu) (tedit 549B02AC) (tstamp 5D49D77F)
     (at 186.79944 29.5777 270)
     (path /5D164F5E)
-    (fp_text reference D6 (at 0 0 90) (layer F.SilkS)
+    (fp_text reference D6 (at 0 0 90) (layer F.SilkS) hide
       (effects (font (size 1.27 1.524) (thickness 0.2032)))
     )
     (fp_text value D (at 0 0 90) (layer F.SilkS) hide
@@ -3933,7 +3933,7 @@
   (module Keebio-Parts:Diode (layer F.Cu) (tedit 549B02AC) (tstamp 5D43425C)
     (at 166.66326 29.5777 270)
     (path /5D164FBE)
-    (fp_text reference D7 (at 0 0 90) (layer F.SilkS)
+    (fp_text reference D7 (at 0 0 90) (layer F.SilkS) hide
       (effects (font (size 1.27 1.524) (thickness 0.2032)))
     )
     (fp_text value D (at 0 0 90) (layer F.SilkS) hide
@@ -3957,7 +3957,7 @@
   (module Keebio-Parts:Diode (layer F.Cu) (tedit 549B02AC) (tstamp 5D49D755)
     (at 190.15547 29.5777 270)
     (path /5D164FD6)
-    (fp_text reference D8 (at 0 0 90) (layer F.SilkS)
+    (fp_text reference D8 (at 0 0 90) (layer F.SilkS) hide
       (effects (font (size 1.27 1.524) (thickness 0.2032)))
     )
     (fp_text value D (at 0 0 90) (layer F.SilkS) hide
@@ -3981,7 +3981,7 @@
   (module Keebio-Parts:Diode (layer F.Cu) (tedit 549B02AC) (tstamp 5D434278)
     (at 170.01929 29.5777 270)
     (path /5D3A83D9)
-    (fp_text reference D9 (at 0 0 90) (layer F.SilkS)
+    (fp_text reference D9 (at 0 0 90) (layer F.SilkS) hide
       (effects (font (size 1.27 1.524) (thickness 0.2032)))
     )
     (fp_text value D (at 0 0 90) (layer F.SilkS) hide
@@ -4005,7 +4005,7 @@
   (module Keebio-Parts:Diode (layer F.Cu) (tedit 549B02AC) (tstamp 5D49D72B)
     (at 193.5115 29.5777 270)
     (path /5D3A83F1)
-    (fp_text reference D10 (at 0 0 90) (layer F.SilkS)
+    (fp_text reference D10 (at 0 0 90) (layer F.SilkS) hide
       (effects (font (size 1.27 1.524) (thickness 0.2032)))
     )
     (fp_text value D (at 0 0 90) (layer F.SilkS) hide
@@ -4029,7 +4029,7 @@
   (module Keebio-Parts:Diode (layer F.Cu) (tedit 549B02AC) (tstamp 5D434294)
     (at 173.37532 29.5777 270)
     (path /5D3A8451)
-    (fp_text reference D11 (at 0 0 90) (layer F.SilkS)
+    (fp_text reference D11 (at 0 0 90) (layer F.SilkS) hide
       (effects (font (size 1.27 1.524) (thickness 0.2032)))
     )
     (fp_text value D (at 0 0 90) (layer F.SilkS) hide
@@ -4053,7 +4053,7 @@
   (module Keebio-Parts:Diode (layer F.Cu) (tedit 549B02AC) (tstamp 5D49D701)
     (at 196.86753 29.5777 270)
     (path /5D3A8469)
-    (fp_text reference D12 (at 0 0 90) (layer F.SilkS)
+    (fp_text reference D12 (at 0 0 90) (layer F.SilkS) hide
       (effects (font (size 1.27 1.524) (thickness 0.2032)))
     )
     (fp_text value D (at 0 0 90) (layer F.SilkS) hide
@@ -4077,7 +4077,7 @@
   (module Keebio-Parts:Diode (layer F.Cu) (tedit 549B02AC) (tstamp 5D49D6D7)
     (at 176.73135 29.5777 270)
     (path /5D3A84C9)
-    (fp_text reference D13 (at 0 0 90) (layer F.SilkS)
+    (fp_text reference D13 (at 0 0 90) (layer F.SilkS) hide
       (effects (font (size 1.27 1.524) (thickness 0.2032)))
     )
     (fp_text value D (at 0 0 90) (layer F.SilkS) hide
@@ -4101,7 +4101,7 @@
   (module Keebio-Parts:Diode (layer F.Cu) (tedit 549B02AC) (tstamp 5D49D6AD)
     (at 200.22356 29.5777 270)
     (path /5D3A84E1)
-    (fp_text reference D14 (at 0 0 90) (layer F.SilkS)
+    (fp_text reference D14 (at 0 0 90) (layer F.SilkS) hide
       (effects (font (size 1.27 1.524) (thickness 0.2032)))
     )
     (fp_text value D (at 0 0 90) (layer F.SilkS) hide
@@ -4125,7 +4125,7 @@
   (module Keebio-Parts:Diode (layer F.Cu) (tedit 549B02AC) (tstamp 5D49D13A)
     (at 203.57959 29.5777 270)
     (path /5D12A94C)
-    (fp_text reference D15 (at 0 0 90) (layer F.SilkS)
+    (fp_text reference D15 (at 0 0 90) (layer F.SilkS) hide
       (effects (font (size 1.27 1.524) (thickness 0.2032)))
     )
     (fp_text value D (at 0 0 90) (layer F.SilkS) hide
@@ -4149,7 +4149,7 @@
   (module Keebio-Parts:Diode (layer F.Cu) (tedit 549B02AC) (tstamp 5D496C56)
     (at 227.0718 29.5777 270)
     (path /5D12DB1F)
-    (fp_text reference D16 (at 0 0 90) (layer F.SilkS)
+    (fp_text reference D16 (at 0 0 90) (layer F.SilkS) hide
       (effects (font (size 1.27 1.524) (thickness 0.2032)))
     )
     (fp_text value D (at 0 0 90) (layer F.SilkS) hide
@@ -4173,7 +4173,7 @@
   (module Keebio-Parts:Diode (layer F.Cu) (tedit 549B02AC) (tstamp 5D4395C9)
     (at 206.93562 29.5777 270)
     (path /5D14F161)
-    (fp_text reference D17 (at 0 0 90) (layer F.SilkS)
+    (fp_text reference D17 (at 0 0 90) (layer F.SilkS) hide
       (effects (font (size 1.27 1.524) (thickness 0.2032)))
     )
     (fp_text value D (at 0 0 90) (layer F.SilkS) hide
@@ -4197,7 +4197,7 @@
   (module Keebio-Parts:Diode (layer F.Cu) (tedit 549B02AC) (tstamp 5D441E32)
     (at 230.42783 29.5777 270)
     (path /5D14F179)
-    (fp_text reference D18 (at 0 0 90) (layer F.SilkS)
+    (fp_text reference D18 (at 0 0 90) (layer F.SilkS) hide
       (effects (font (size 1.27 1.524) (thickness 0.2032)))
     )
     (fp_text value D (at 0 0 90) (layer F.SilkS) hide
@@ -4221,7 +4221,7 @@
   (module Keebio-Parts:Diode (layer F.Cu) (tedit 549B02AC) (tstamp 5D434304)
     (at 210.29165 29.5777 270)
     (path /5D164F52)
-    (fp_text reference D19 (at 0 0 90) (layer F.SilkS)
+    (fp_text reference D19 (at 0 0 90) (layer F.SilkS) hide
       (effects (font (size 1.27 1.524) (thickness 0.2032)))
     )
     (fp_text value D (at 0 0 90) (layer F.SilkS) hide
@@ -4245,7 +4245,7 @@
   (module Keebio-Parts:Diode (layer F.Cu) (tedit 549B02AC) (tstamp 5D434312)
     (at 233.78386 29.5777 270)
     (path /5D164F6A)
-    (fp_text reference D20 (at 0 0 90) (layer F.SilkS)
+    (fp_text reference D20 (at 0 0 90) (layer F.SilkS) hide
       (effects (font (size 1.27 1.524) (thickness 0.2032)))
     )
     (fp_text value D (at 0 0 90) (layer F.SilkS) hide
@@ -4269,7 +4269,7 @@
   (module Keebio-Parts:Diode (layer F.Cu) (tedit 549B02AC) (tstamp 5D434320)
     (at 213.64768 29.5777 270)
     (path /5D164FCA)
-    (fp_text reference D21 (at 0 0 90) (layer F.SilkS)
+    (fp_text reference D21 (at 0 0 90) (layer F.SilkS) hide
       (effects (font (size 1.27 1.524) (thickness 0.2032)))
     )
     (fp_text value D (at 0 0 90) (layer F.SilkS) hide
@@ -4293,7 +4293,7 @@
   (module Keebio-Parts:Diode (layer F.Cu) (tedit 549B02AC) (tstamp 5D43432E)
     (at 237.13989 29.5777 270)
     (path /5D3A83E5)
-    (fp_text reference D22 (at 0 0 90) (layer F.SilkS)
+    (fp_text reference D22 (at 0 0 90) (layer F.SilkS) hide
       (effects (font (size 1.27 1.524) (thickness 0.2032)))
     )
     (fp_text value D (at 0 0 90) (layer F.SilkS) hide
@@ -4317,7 +4317,7 @@
   (module Keebio-Parts:Diode (layer F.Cu) (tedit 549B02AC) (tstamp 5D43433C)
     (at 217.00371 29.5777 270)
     (path /5D3A83FD)
-    (fp_text reference D23 (at 0 0 90) (layer F.SilkS)
+    (fp_text reference D23 (at 0 0 90) (layer F.SilkS) hide
       (effects (font (size 1.27 1.524) (thickness 0.2032)))
     )
     (fp_text value D (at 0 0 90) (layer F.SilkS) hide
@@ -4341,7 +4341,7 @@
   (module Keebio-Parts:Diode (layer F.Cu) (tedit 549B02AC) (tstamp 5D43434A)
     (at 240.49592 29.5777 270)
     (path /5D3A845D)
-    (fp_text reference D24 (at 0 0 90) (layer F.SilkS)
+    (fp_text reference D24 (at 0 0 90) (layer F.SilkS) hide
       (effects (font (size 1.27 1.524) (thickness 0.2032)))
     )
     (fp_text value D (at 0 0 90) (layer F.SilkS) hide
@@ -4365,7 +4365,7 @@
   (module Keebio-Parts:Diode (layer F.Cu) (tedit 549B02AC) (tstamp 5D434358)
     (at 220.35974 29.5777 270)
     (path /5D3A8475)
-    (fp_text reference D25 (at 0 0 90) (layer F.SilkS)
+    (fp_text reference D25 (at 0 0 90) (layer F.SilkS) hide
       (effects (font (size 1.27 1.524) (thickness 0.2032)))
     )
     (fp_text value D (at 0 0 90) (layer F.SilkS) hide
@@ -4389,7 +4389,7 @@
   (module Keebio-Parts:Diode (layer F.Cu) (tedit 549B02AC) (tstamp 5D434366)
     (at 243.85195 29.5777 270)
     (path /5D3A84D5)
-    (fp_text reference D26 (at 0 0 90) (layer F.SilkS)
+    (fp_text reference D26 (at 0 0 90) (layer F.SilkS) hide
       (effects (font (size 1.27 1.524) (thickness 0.2032)))
     )
     (fp_text value D (at 0 0 90) (layer F.SilkS) hide
@@ -4413,7 +4413,7 @@
   (module Keebio-Parts:Diode (layer F.Cu) (tedit 549B02AC) (tstamp 5D434374)
     (at 223.71577 29.5777 270)
     (path /5D3A84ED)
-    (fp_text reference D27 (at 0 0 90) (layer F.SilkS)
+    (fp_text reference D27 (at 0 0 90) (layer F.SilkS) hide
       (effects (font (size 1.27 1.524) (thickness 0.2032)))
     )
     (fp_text value D (at 0 0 90) (layer F.SilkS) hide
@@ -4437,7 +4437,7 @@
   (module Keebio-Parts:Diode (layer F.Cu) (tedit 549B02AC) (tstamp 5D434382)
     (at 247.208 29.5777 270)
     (path /5D3A8541)
-    (fp_text reference D28 (at 0 0 90) (layer F.SilkS)
+    (fp_text reference D28 (at 0 0 90) (layer F.SilkS) hide
       (effects (font (size 1.27 1.524) (thickness 0.2032)))
     )
     (fp_text value D (at 0 0 90) (layer F.SilkS) hide
@@ -4461,7 +4461,7 @@
   (module Keebio-Parts:Diode (layer F.Cu) (tedit 549B02AC) (tstamp 5D434390)
     (at 133.10296 29.5777 270)
     (path /5D132942)
-    (fp_text reference D29 (at 0 0 90) (layer F.SilkS)
+    (fp_text reference D29 (at 0 0 90) (layer F.SilkS) hide
       (effects (font (size 1.27 1.524) (thickness 0.2032)))
     )
     (fp_text value D (at 0 0 90) (layer F.SilkS) hide
@@ -4485,7 +4485,7 @@
   (module Keebio-Parts:Diode (layer F.Cu) (tedit 549B02AC) (tstamp 5D496C2C)
     (at 86.11854 29.5777 270)
     (path /5D13295A)
-    (fp_text reference D30 (at 0 0 90) (layer F.SilkS)
+    (fp_text reference D30 (at 0 0 90) (layer F.SilkS) hide
       (effects (font (size 1.27 1.524) (thickness 0.2032)))
     )
     (fp_text value D (at 0 0 90) (layer F.SilkS) hide
@@ -4509,7 +4509,7 @@
   (module Keebio-Parts:Diode (layer F.Cu) (tedit 549B02AC) (tstamp 5D4343AC)
     (at 136.45899 29.5777 270)
     (path /5D14F185)
-    (fp_text reference D31 (at 0 0 90) (layer F.SilkS)
+    (fp_text reference D31 (at 0 0 90) (layer F.SilkS) hide
       (effects (font (size 1.27 1.524) (thickness 0.2032)))
     )
     (fp_text value D (at 0 0 90) (layer F.SilkS) hide
@@ -4533,7 +4533,7 @@
   (module Keebio-Parts:Diode (layer F.Cu) (tedit 549B02AC) (tstamp 5D46E87F)
     (at 89.47457 29.5777 270)
     (path /5D14F19D)
-    (fp_text reference D32 (at 0 0 90) (layer F.SilkS)
+    (fp_text reference D32 (at 0 0 90) (layer F.SilkS) hide
       (effects (font (size 1.27 1.524) (thickness 0.2032)))
     )
     (fp_text value D (at 0 0 90) (layer F.SilkS) hide
@@ -4557,7 +4557,7 @@
   (module Keebio-Parts:Diode (layer F.Cu) (tedit 549B02AC) (tstamp 5D4343C8)
     (at 139.81502 29.5777 270)
     (path /5D164F76)
-    (fp_text reference D33 (at 0 0 90) (layer F.SilkS)
+    (fp_text reference D33 (at 0 0 90) (layer F.SilkS) hide
       (effects (font (size 1.27 1.524) (thickness 0.2032)))
     )
     (fp_text value D (at 0 0 90) (layer F.SilkS) hide
@@ -4581,7 +4581,7 @@
   (module Keebio-Parts:Diode (layer F.Cu) (tedit 549B02AC) (tstamp 5D4343D6)
     (at 92.8306 29.5777 270)
     (path /5D164F8E)
-    (fp_text reference D34 (at 0 0 90) (layer F.SilkS)
+    (fp_text reference D34 (at 0 0 90) (layer F.SilkS) hide
       (effects (font (size 1.27 1.524) (thickness 0.2032)))
     )
     (fp_text value D (at 0 0 90) (layer F.SilkS) hide
@@ -4605,7 +4605,7 @@
   (module Keebio-Parts:Diode (layer F.Cu) (tedit 549B02AC) (tstamp 5D4343E4)
     (at 143.17105 29.5777 270)
     (path /5D164FEE)
-    (fp_text reference D35 (at 0 0 90) (layer F.SilkS)
+    (fp_text reference D35 (at 0 0 90) (layer F.SilkS) hide
       (effects (font (size 1.27 1.524) (thickness 0.2032)))
     )
     (fp_text value D (at 0 0 90) (layer F.SilkS) hide
@@ -4629,7 +4629,7 @@
   (module Keebio-Parts:Diode (layer F.Cu) (tedit 549B02AC) (tstamp 5D4343F2)
     (at 96.18663 29.5777 270)
     (path /5D3A8409)
-    (fp_text reference D36 (at 0 0 90) (layer F.SilkS)
+    (fp_text reference D36 (at 0 0 90) (layer F.SilkS) hide
       (effects (font (size 1.27 1.524) (thickness 0.2032)))
     )
     (fp_text value D (at 0 0 90) (layer F.SilkS) hide
@@ -4653,7 +4653,7 @@
   (module Keebio-Parts:Diode (layer F.Cu) (tedit 549B02AC) (tstamp 5D496DA2)
     (at 146.52708 29.5777 270)
     (path /5D3A8421)
-    (fp_text reference D37 (at 0 0 90) (layer F.SilkS)
+    (fp_text reference D37 (at 0 0 90) (layer F.SilkS) hide
       (effects (font (size 1.27 1.524) (thickness 0.2032)))
     )
     (fp_text value D (at 0 0 90) (layer F.SilkS) hide
@@ -4677,7 +4677,7 @@
   (module Keebio-Parts:Diode (layer F.Cu) (tedit 549B02AC) (tstamp 5D43440E)
     (at 99.54266 29.5777 270)
     (path /5D3A8481)
-    (fp_text reference D38 (at 0 0 90) (layer F.SilkS)
+    (fp_text reference D38 (at 0 0 90) (layer F.SilkS) hide
       (effects (font (size 1.27 1.524) (thickness 0.2032)))
     )
     (fp_text value D (at 0 0 90) (layer F.SilkS) hide
@@ -4701,7 +4701,7 @@
   (module Keebio-Parts:Diode (layer F.Cu) (tedit 549B02AC) (tstamp 5D43441C)
     (at 149.88311 29.5777 270)
     (path /5D3A8499)
-    (fp_text reference D39 (at 0 0 90) (layer F.SilkS)
+    (fp_text reference D39 (at 0 0 90) (layer F.SilkS) hide
       (effects (font (size 1.27 1.524) (thickness 0.2032)))
     )
     (fp_text value D (at 0 0 90) (layer F.SilkS) hide
@@ -4725,7 +4725,7 @@
   (module Keebio-Parts:Diode (layer F.Cu) (tedit 549B02AC) (tstamp 5D43442A)
     (at 102.89869 29.5777 270)
     (path /5D3A84F9)
-    (fp_text reference D40 (at 0 0 90) (layer F.SilkS)
+    (fp_text reference D40 (at 0 0 90) (layer F.SilkS) hide
       (effects (font (size 1.27 1.524) (thickness 0.2032)))
     )
     (fp_text value D (at 0 0 90) (layer F.SilkS) hide
@@ -4749,7 +4749,7 @@
   (module Keebio-Parts:Diode (layer F.Cu) (tedit 549B02AC) (tstamp 5D434438)
     (at 153.23914 29.5777 270)
     (path /5D3A8511)
-    (fp_text reference D41 (at 0 0 90) (layer F.SilkS)
+    (fp_text reference D41 (at 0 0 90) (layer F.SilkS) hide
       (effects (font (size 1.27 1.524) (thickness 0.2032)))
     )
     (fp_text value D (at 0 0 90) (layer F.SilkS) hide
@@ -4773,7 +4773,7 @@
   (module Keebio-Parts:Diode (layer F.Cu) (tedit 549B02AC) (tstamp 5D441BAA)
     (at 106.25472 29.5777 270)
     (path /5D3A8559)
-    (fp_text reference D42 (at 0 0 90) (layer F.SilkS)
+    (fp_text reference D42 (at 0 0 90) (layer F.SilkS) hide
       (effects (font (size 1.27 1.524) (thickness 0.2032)))
     )
     (fp_text value D (at 0 0 90) (layer F.SilkS) hide
@@ -4797,7 +4797,7 @@
   (module Keebio-Parts:Diode (layer F.Cu) (tedit 549B02AC) (tstamp 5D439495)
     (at 109.61075 29.5777 270)
     (path /5D13294E)
-    (fp_text reference D43 (at 0 0 90) (layer F.SilkS)
+    (fp_text reference D43 (at 0 0 90) (layer F.SilkS) hide
       (effects (font (size 1.27 1.524) (thickness 0.2032)))
     )
     (fp_text value D (at 0 0 90) (layer F.SilkS) hide
@@ -4821,7 +4821,7 @@
   (module Keebio-Parts:Diode (layer F.Cu) (tedit 549B02AC) (tstamp 5D4A0A32)
     (at 45.84618 29.5777 270)
     (path /5D132966)
-    (fp_text reference D44 (at 0 0 90) (layer F.SilkS)
+    (fp_text reference D44 (at 0 0 90) (layer F.SilkS) hide
       (effects (font (size 1.27 1.524) (thickness 0.2032)))
     )
     (fp_text value D (at 0 0 90) (layer F.SilkS) hide
@@ -4845,7 +4845,7 @@
   (module Keebio-Parts:Diode (layer F.Cu) (tedit 549B02AC) (tstamp 5D43BF14)
     (at 112.96678 29.5777 270)
     (path /5D14F191)
-    (fp_text reference D45 (at 0 0 90) (layer F.SilkS)
+    (fp_text reference D45 (at 0 0 90) (layer F.SilkS) hide
       (effects (font (size 1.27 1.524) (thickness 0.2032)))
     )
     (fp_text value D (at 0 0 90) (layer F.SilkS) hide
@@ -4869,7 +4869,7 @@
   (module Keebio-Parts:Diode (layer F.Cu) (tedit 549B02AC) (tstamp 5D4A0A08)
     (at 49.20221 29.5777 270)
     (path /5D14F1A9)
-    (fp_text reference D46 (at 0 0 90) (layer F.SilkS)
+    (fp_text reference D46 (at 0 0 90) (layer F.SilkS) hide
       (effects (font (size 1.27 1.524) (thickness 0.2032)))
     )
     (fp_text value D (at 0 0 90) (layer F.SilkS) hide
@@ -4893,7 +4893,7 @@
   (module Keebio-Parts:Diode (layer F.Cu) (tedit 549B02AC) (tstamp 5D439753)
     (at 116.32281 29.5777 270)
     (path /5D164F82)
-    (fp_text reference D47 (at 0 0 90) (layer F.SilkS)
+    (fp_text reference D47 (at 0 0 90) (layer F.SilkS) hide
       (effects (font (size 1.27 1.524) (thickness 0.2032)))
     )
     (fp_text value D (at 0 0 90) (layer F.SilkS) hide
@@ -4917,7 +4917,7 @@
   (module Keebio-Parts:Diode (layer F.Cu) (tedit 549B02AC) (tstamp 5D4A09DE)
     (at 52.55824 29.5777 270)
     (path /5D164F9A)
-    (fp_text reference D48 (at 0 0 90) (layer F.SilkS)
+    (fp_text reference D48 (at 0 0 90) (layer F.SilkS) hide
       (effects (font (size 1.27 1.524) (thickness 0.2032)))
     )
     (fp_text value D (at 0 0 90) (layer F.SilkS) hide
@@ -4941,7 +4941,7 @@
   (module Keebio-Parts:Diode (layer F.Cu) (tedit 549B02AC) (tstamp 5D4344A8)
     (at 119.67884 29.5777 270)
     (path /5D164FFA)
-    (fp_text reference D49 (at 0 0 90) (layer F.SilkS)
+    (fp_text reference D49 (at 0 0 90) (layer F.SilkS) hide
       (effects (font (size 1.27 1.524) (thickness 0.2032)))
     )
     (fp_text value D (at 0 0 90) (layer F.SilkS) hide
@@ -4965,7 +4965,7 @@
   (module Keebio-Parts:Diode (layer F.Cu) (tedit 549B02AC) (tstamp 5D4A09B4)
     (at 55.91427 29.5777 270)
     (path /5D3A8415)
-    (fp_text reference D50 (at 0 0 90) (layer F.SilkS)
+    (fp_text reference D50 (at 0 0 90) (layer F.SilkS) hide
       (effects (font (size 1.27 1.524) (thickness 0.2032)))
     )
     (fp_text value D (at 0 0 90) (layer F.SilkS) hide
@@ -4989,7 +4989,7 @@
   (module Keebio-Parts:Diode (layer F.Cu) (tedit 549B02AC) (tstamp 5D496D78)
     (at 123.03487 29.5777 270)
     (path /5D3A842D)
-    (fp_text reference D51 (at 0 0 90) (layer F.SilkS)
+    (fp_text reference D51 (at 0 0 90) (layer F.SilkS) hide
       (effects (font (size 1.27 1.524) (thickness 0.2032)))
     )
     (fp_text value D (at 0 0 90) (layer F.SilkS) hide
@@ -5013,7 +5013,7 @@
   (module Keebio-Parts:Diode (layer F.Cu) (tedit 549B02AC) (tstamp 5D4A098A)
     (at 59.2703 29.5777 270)
     (path /5D3A848D)
-    (fp_text reference D52 (at 0 0 90) (layer F.SilkS)
+    (fp_text reference D52 (at 0 0 90) (layer F.SilkS) hide
       (effects (font (size 1.27 1.524) (thickness 0.2032)))
     )
     (fp_text value D (at 0 0 90) (layer F.SilkS) hide
@@ -5037,7 +5037,7 @@
   (module Keebio-Parts:Diode (layer F.Cu) (tedit 549B02AC) (tstamp 5D4344E0)
     (at 126.3909 29.5777 270)
     (path /5D3A84A5)
-    (fp_text reference D53 (at 0 0 90) (layer F.SilkS)
+    (fp_text reference D53 (at 0 0 90) (layer F.SilkS) hide
       (effects (font (size 1.27 1.524) (thickness 0.2032)))
     )
     (fp_text value D (at 0 0 90) (layer F.SilkS) hide
@@ -5061,7 +5061,7 @@
   (module Keebio-Parts:Diode (layer F.Cu) (tedit 549B02AC) (tstamp 5D4A0960)
     (at 62.62633 29.5777 270)
     (path /5D3A8505)
-    (fp_text reference D54 (at 0 0 90) (layer F.SilkS)
+    (fp_text reference D54 (at 0 0 90) (layer F.SilkS) hide
       (effects (font (size 1.27 1.524) (thickness 0.2032)))
     )
     (fp_text value D (at 0 0 90) (layer F.SilkS) hide
@@ -5085,7 +5085,7 @@
   (module Keebio-Parts:Diode (layer F.Cu) (tedit 549B02AC) (tstamp 5D4344FC)
     (at 129.74693 29.5777 270)
     (path /5D3A851D)
-    (fp_text reference D55 (at 0 0 90) (layer F.SilkS)
+    (fp_text reference D55 (at 0 0 90) (layer F.SilkS) hide
       (effects (font (size 1.27 1.524) (thickness 0.2032)))
     )
     (fp_text value D (at 0 0 90) (layer F.SilkS) hide
@@ -5109,7 +5109,7 @@
   (module Keebio-Parts:Diode (layer F.Cu) (tedit 549B02AC) (tstamp 5D4A0936)
     (at 25.71 29.5777 270)
     (path /5D13C41E)
-    (fp_text reference D56 (at 0 0 90) (layer F.SilkS)
+    (fp_text reference D56 (at 0 0 90) (layer F.SilkS) hide
       (effects (font (size 1.27 1.524) (thickness 0.2032)))
     )
     (fp_text value D (at 0 0 90) (layer F.SilkS) hide
@@ -5133,7 +5133,7 @@
   (module Keebio-Parts:Diode (layer F.Cu) (tedit 549B02AC) (tstamp 5D4A090C)
     (at 65.98236 29.5777 270)
     (path /5D13C42A)
-    (fp_text reference D57 (at 0 0 90) (layer F.SilkS)
+    (fp_text reference D57 (at 0 0 90) (layer F.SilkS) hide
       (effects (font (size 1.27 1.524) (thickness 0.2032)))
     )
     (fp_text value D (at 0 0 90) (layer F.SilkS) hide
@@ -5157,7 +5157,7 @@
   (module Keebio-Parts:Diode (layer F.Cu) (tedit 549B02AC) (tstamp 5D4A08E2)
     (at 29.06603 29.5777 270)
     (path /5D14F1B5)
-    (fp_text reference D58 (at 0 0 90) (layer F.SilkS)
+    (fp_text reference D58 (at 0 0 90) (layer F.SilkS) hide
       (effects (font (size 1.27 1.524) (thickness 0.2032)))
     )
     (fp_text value D (at 0 0 90) (layer F.SilkS) hide
@@ -5181,7 +5181,7 @@
   (module Keebio-Parts:Diode (layer F.Cu) (tedit 549B02AC) (tstamp 5D4A08B8)
     (at 69.33839 29.5777 270)
     (path /5D14F1C1)
-    (fp_text reference D59 (at 0 0 90) (layer F.SilkS)
+    (fp_text reference D59 (at 0 0 90) (layer F.SilkS) hide
       (effects (font (size 1.27 1.524) (thickness 0.2032)))
     )
     (fp_text value D (at 0 0 90) (layer F.SilkS) hide
@@ -5205,7 +5205,7 @@
   (module Keebio-Parts:Diode (layer F.Cu) (tedit 549B02AC) (tstamp 5D4A088E)
     (at 32.42206 29.5777 270)
     (path /5D164FA6)
-    (fp_text reference D60 (at 0 0 90) (layer F.SilkS)
+    (fp_text reference D60 (at 0 0 90) (layer F.SilkS) hide
       (effects (font (size 1.27 1.524) (thickness 0.2032)))
     )
     (fp_text value D (at 0 0 90) (layer F.SilkS) hide
@@ -5229,7 +5229,7 @@
   (module Keebio-Parts:Diode (layer F.Cu) (tedit 549B02AC) (tstamp 5D4A0864)
     (at 72.69442 29.5777 270)
     (path /5D3A8439)
-    (fp_text reference D61 (at 0 0 90) (layer F.SilkS)
+    (fp_text reference D61 (at 0 0 90) (layer F.SilkS) hide
       (effects (font (size 1.27 1.524) (thickness 0.2032)))
     )
     (fp_text value D (at 0 0 90) (layer F.SilkS) hide
@@ -5253,7 +5253,7 @@
   (module Keebio-Parts:Diode (layer F.Cu) (tedit 549B02AC) (tstamp 5D4A083A)
     (at 35.77809 29.5777 270)
     (path /5D3A8445)
-    (fp_text reference D62 (at 0 0 90) (layer F.SilkS)
+    (fp_text reference D62 (at 0 0 90) (layer F.SilkS) hide
       (effects (font (size 1.27 1.524) (thickness 0.2032)))
     )
     (fp_text value D (at 0 0 90) (layer F.SilkS) hide
@@ -5277,7 +5277,7 @@
   (module Keebio-Parts:Diode (layer F.Cu) (tedit 549B02AC) (tstamp 5D4A0810)
     (at 76.05045 29.5777 270)
     (path /5D3A84B1)
-    (fp_text reference D63 (at 0 0 90) (layer F.SilkS)
+    (fp_text reference D63 (at 0 0 90) (layer F.SilkS) hide
       (effects (font (size 1.27 1.524) (thickness 0.2032)))
     )
     (fp_text value D (at 0 0 90) (layer F.SilkS) hide
@@ -5301,7 +5301,7 @@
   (module Keebio-Parts:Diode (layer F.Cu) (tedit 549B02AC) (tstamp 5D4A07E6)
     (at 39.13412 29.5777 270)
     (path /5D3A84BD)
-    (fp_text reference D64 (at 0 0 90) (layer F.SilkS)
+    (fp_text reference D64 (at 0 0 90) (layer F.SilkS) hide
       (effects (font (size 1.27 1.524) (thickness 0.2032)))
     )
     (fp_text value D (at 0 0 90) (layer F.SilkS) hide
@@ -5325,7 +5325,7 @@
   (module Keebio-Parts:Diode (layer F.Cu) (tedit 549B02AC) (tstamp 5D4A07BC)
     (at 79.40648 29.5777 270)
     (path /5D3A8529)
-    (fp_text reference D65 (at 0 0 90) (layer F.SilkS)
+    (fp_text reference D65 (at 0 0 90) (layer F.SilkS) hide
       (effects (font (size 1.27 1.524) (thickness 0.2032)))
     )
     (fp_text value D (at 0 0 90) (layer F.SilkS) hide
@@ -5349,7 +5349,7 @@
   (module Keebio-Parts:Diode (layer F.Cu) (tedit 549B02AC) (tstamp 5D4A0792)
     (at 42.49015 29.5777 270)
     (path /5D3A8535)
-    (fp_text reference D66 (at 0 0 90) (layer F.SilkS)
+    (fp_text reference D66 (at 0 0 90) (layer F.SilkS) hide
       (effects (font (size 1.27 1.524) (thickness 0.2032)))
     )
     (fp_text value D (at 0 0 90) (layer F.SilkS) hide
@@ -5373,7 +5373,7 @@
   (module Keebio-Parts:Diode (layer F.Cu) (tedit 549B02AC) (tstamp 5D4A0768)
     (at 82.76251 29.5777 270)
     (path /5D23FADD)
-    (fp_text reference D67 (at 0 0 90) (layer F.SilkS)
+    (fp_text reference D67 (at 0 0 90) (layer F.SilkS) hide
       (effects (font (size 1.27 1.524) (thickness 0.2032)))
     )
     (fp_text value D (at 0 0 90) (layer F.SilkS) hide
