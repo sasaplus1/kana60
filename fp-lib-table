@@ -1,4 +1,5 @@
 (fp_lib_table
   (lib (name kbd)(type KiCad)(uri ${KIPRJMOD}/libs/kbd/kbd.pretty)(options "")(descr ""))
   (lib (name Keebio-Parts)(type KiCad)(uri ${KIPRJMOD}/libs/keebio)(options "")(descr ""))
+  (lib (name kana60)(type KiCad)(uri ${KIPRJMOD}/libs/kana60/kana60.pretty)(options "")(descr ""))
 )
