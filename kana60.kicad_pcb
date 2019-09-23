@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 655)
+    (drawings 656)
     (tracks 1095)
     (zones 0)
     (modules 148)
@@ -93,9 +93,9 @@
       (plotinvisibletext false)
       (padsonsilk false)
       (subtractmaskfromsilk false)
-      (outputformat 1)
+      (outputformat 4)
       (mirror false)
-      (drillshape 1)
+      (drillshape 0)
       (scaleselection 1)
       (outputdirectory ""))
   )
@@ -913,7 +913,7 @@
   )
 
   (module kbd:ResetSW (layer F.Cu) (tedit 5B9559E6) (tstamp 5D888A5E)
-    (at 260.858 21.844 180)
+    (at 260.604 21.844 180)
     (path /5D32FDEF)
     (fp_text reference SW71 (at 0 2.55) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -5394,6 +5394,9 @@
       (net 20 row4-1))
   )
 
+  (gr_text "PCB designed by sasa+1" (at 289.814 40.894) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
   (gr_line (start 18.07122 19.3255) (end 299.4476 19.3269) (layer Edge.Cuts) (width 0.2) (tstamp 5D496BC8))
   (gr_line (start 17.9155 19.3322) (end 18.07122 19.3255) (layer Edge.Cuts) (width 0.2) (tstamp 5D410630))
   (gr_line (start 17.7584 19.3502) (end 17.9155 19.3322) (layer Edge.Cuts) (width 0.2) (tstamp 5D410633))
@@ -6933,9 +6936,9 @@
   (segment (start 292.354 29.464) (end 132.08 29.464) (width 0.25) (layer F.Cu) (net 77))
   (segment (start 292.758988 21.9577) (end 292.758988 29.059012) (width 0.25) (layer F.Cu) (net 77))
   (segment (start 290.218988 25.042988) (end 290.218988 37.1977) (width 0.25) (layer B.Cu) (net 78))
-  (segment (start 260.402 24.638) (end 289.814 24.638) (width 0.25) (layer B.Cu) (net 78))
-  (segment (start 257.608 21.844) (end 260.402 24.638) (width 0.25) (layer B.Cu) (net 78))
   (segment (start 289.814 24.638) (end 290.218988 25.042988) (width 0.25) (layer B.Cu) (net 78))
+  (segment (start 260.148 24.638) (end 289.814 24.638) (width 0.25) (layer B.Cu) (net 78))
+  (segment (start 257.354 21.844) (end 260.148 24.638) (width 0.25) (layer B.Cu) (net 78))
   (segment (start 192.809988 128.0027) (end 192.809988 121.23245) (width 0.25) (layer B.Cu) (net 80))
   (segment (start 192.809988 121.23245) (end 192.250238 120.6727) (width 0.25) (layer B.Cu) (net 80))
   (segment (start 216.177988 128.5107) (end 193.317988 128.5107) (width 0.25) (layer B.Cu) (net 80))
