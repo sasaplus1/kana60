@@ -4,3 +4,6 @@
 [submodule "libs/keebio"]
 	path = libs/keebio
 	url = https://github.com/keebio/Keebio-Parts.pretty
+[submodule "libs/kicad-footprints.pretty"]
+	path = libs/kicad-footprints.pretty
+	url = https://github.com/sasaplus1/kicad-footprints.pretty.git
