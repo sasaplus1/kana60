@@ -418,7 +418,7 @@
       (xy -7.044052 1.138264)) (layer B.SilkS) (width 0.01))
   )
 
-  (module kana60:sasaplus1-logo (layer B.Cu) (tedit 0) (tstamp 5D8A759F)
+  (module kicad-footprints:sasaplus1-icon (layer B.Cu) (tedit 0) (tstamp 5D8A759F)
     (at 67.564 75.184 180)
     (fp_text reference G*** (at 0 0) (layer B.SilkS) hide
       (effects (font (size 1.524 1.524) (thickness 0.3)) (justify mirror))
@@ -440,7 +440,7 @@
       (xy -1.354666 1.27) (xy -1.354666 1.354666) (xy 1.354667 1.354666) (xy 1.354667 -1.354667)) (layer B.SilkS) (width 0.01))
   )
 
-  (module kana60:sasaplus1-logo (layer F.Cu) (tedit 0) (tstamp 5D8980B0)
+  (module kicad-footprints:sasaplus1-icon (layer F.Cu) (tedit 0) (tstamp 5D8980B0)
     (at 144.526 82.55)
     (fp_text reference G*** (at 0 0) (layer F.SilkS) hide
       (effects (font (size 1.524 1.524) (thickness 0.3)))
