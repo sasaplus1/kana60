@@ -1,9 +1,9 @@
 [submodule "libs/kbd"]
 	path = libs/kbd
 	url = https://github.com/foostan/kbd
-[submodule "libs/keebio"]
-	path = libs/keebio
-	url = https://github.com/keebio/Keebio-Parts.pretty
+[submodule "libs/Keebio-Parts.pretty"]
+	path = libs/Keebio-Parts.pretty
+	url = https://github.com/keebio/Keebio-Parts.pretty.git
 [submodule "libs/kicad-footprints.pretty"]
 	path = libs/kicad-footprints.pretty
 	url = https://github.com/sasaplus1/kicad-footprints.pretty.git
