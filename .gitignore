@@ -26,4 +26,7 @@ fp-info-cache
 *.xml
 *.csv
 
+### kana60
 
+dist/*/*
+!dist/*/.gitkeep
