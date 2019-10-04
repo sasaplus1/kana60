@@ -59,19 +59,19 @@ build: build_acrylic build_pcb build_plate ## packaging acrylic, PCB and plate
 .PHONY: build_acrylic
 build_acrylic: $(acrylic_files)
 build_acrylic: ## packaging acrylic files to zip for Elecrow
-	zip $(acrylic_zip) $^
+	zip -j $(acrylic_zip) $^
 	@printf -- 'generate %s\n' "$(acrylic_zip)"
 
 .PHONY: build_pcb
 build_pcb: $(pcb_files)
 build_pcb: ## packaging PCB files to zip for Elecrow
-	zip $(pcb_zip) $^
+	zip -j $(pcb_zip) $^
 	@printf -- 'generate %s\n' "$(pcb_zip)"
 
 .PHONY: build_plate
 build_plate: $(plate_files)
 build_plate: ## packaging top plate files to zip for Elecrow
-	zip $(plate_zip) $^
+	zip -j $(plate_zip) $^
 	@printf -- 'generate %s\n' "$(plate_zip)"
 
 .PHONY: clean
