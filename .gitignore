@@ -28,5 +28,5 @@ fp-info-cache
 
 ### kana60
 
-dist/*/*
+dist/*
 !dist/*/.gitkeep
