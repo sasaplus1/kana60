@@ -6,8 +6,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "kana60"
-Date "2019-06-19"
-Rev "1"
+Date "2019-10-13"
+Rev "1.1"
 Comp ""
 Comment1 "https://github.com/sasaplus1/kana60"
 Comment2 "designed by sasa+1"
