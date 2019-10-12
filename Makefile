@@ -16,6 +16,8 @@ pcb_zip := dist/kana60/kana60.zip
 plate_files := $(addprefix dist/kana60-top-plate/kana60-top-plate,$(extensions))
 plate_zip := dist/kana60-top-plate/kana60-top-plate.zip
 
+checksum_file := dist/kana60-sha256sum.txt
+
 %.GBL: %-B_Cu.gbr
 	cp $< $@
 
@@ -77,6 +79,10 @@ build_plate: ## packaging top plate files to zip for Elecrow
 .PHONY: clean
 clean: ## remove some generated files
 	$(RM) $(acrylic_files) $(acrylic_zip) $(pcb_files) $(pcb_zip) $(plate_files) $(plate_zip)
+
+.PHONY: create_checksum
+create_checksum: ## create checksum file
+	shasum --algorithm 256 $(acrylic_zip) $(pcb_zip) $(plate_zip) | awk '{ last = split($$2, file, "/"); print $$1 "  " file[last] }' > $(checksum_file)
 
 .PHONY: info
 info: info_acrylic info_pcb info_plate ## show archive infomations
