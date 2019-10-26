@@ -5,7 +5,7 @@
     (drawings 395)
     (tracks 0)
     (zones 0)
-    (modules 5)
+    (modules 6)
     (nets 1)
   )
 
@@ -121,6 +121,28 @@
     (uvia_drill 0.1)
   )
 
+  (module kicad-footprints:sasaplus1-icon-32 (layer B.Cu) (tedit 5DB4172D) (tstamp 5DB4AAAF)
+    (at 18.311988 96.5067 90)
+    (fp_text reference G*** (at 0 0 90) (layer B.SilkS) hide
+      (effects (font (size 1.524 1.524) (thickness 0.3)) (justify mirror))
+    )
+    (fp_text value LOGO (at 0 0 90) (layer B.SilkS) hide
+      (effects (font (size 1.524 1.524) (thickness 0.3)) (justify mirror))
+    )
+    (fp_poly (pts (xy -0.861418 1.032894) (xy -0.846666 0.973666) (xy -0.914439 0.861418) (xy -0.973666 0.846666)
+      (xy -1.085915 0.914439) (xy -1.100666 0.973666) (xy -1.032894 1.085915) (xy -0.973666 1.100666)
+      (xy -0.861418 1.032894)) (layer B.SilkS) (width 0.01))
+    (fp_poly (pts (xy 1.085915 -0.91444) (xy 1.100667 -0.973667) (xy 1.032894 -1.085915) (xy 0.973667 -1.100667)
+      (xy 0.861418 -1.032894) (xy 0.846667 -0.973667) (xy 0.91444 -0.861418) (xy 0.973667 -0.846667)
+      (xy 1.085915 -0.91444)) (layer B.SilkS) (width 0.01))
+    (fp_poly (pts (xy -0.861418 -0.91444) (xy -0.846666 -0.973667) (xy -0.914439 -1.085915) (xy -0.973666 -1.100667)
+      (xy -1.085915 -1.032894) (xy -1.100666 -0.973667) (xy -1.032894 -0.861418) (xy -0.973666 -0.846667)
+      (xy -0.861418 -0.91444)) (layer B.SilkS) (width 0.01))
+    (fp_poly (pts (xy 1.354667 -1.354667) (xy -1.354666 -1.354667) (xy -1.354666 1.27) (xy -1.27 1.27)
+      (xy -1.27 -1.27) (xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 1.27)
+      (xy -1.354666 1.27) (xy -1.354666 1.354666) (xy 1.354667 1.354666) (xy 1.354667 -1.354667)) (layer B.SilkS) (width 0.01))
+  )
+
   (module MountingHole:MountingHole_2.2mm_M2_Pad (layer F.Cu) (tedit 56D1B4CB) (tstamp 5D271E1D)
     (at 224.559988 125.4627)
     (descr "Mounting Hole 2.2mm, M2")
@@ -216,7 +238,7 @@
     (pad 1 thru_hole circle (at 0 0) (size 4.4 4.4) (drill 2.2) (layers *.Cu *.Mask))
   )
 
-  (gr_text "kana60 rev.1.1 designed by sasa+1" (at 18.311988 115.8107 270) (layer B.SilkS)
+  (gr_text "kana60 rev.1.1 designed by sasa+1" (at 18.311988 115.8107 270) (layer B.SilkS) (tstamp 5DB4AB2C)
     (effects (font (size 1.2 1.2) (thickness 0.15)) (justify mirror))
   )
   (dimension 94.996 (width 0.15) (layer Dwgs.User)
