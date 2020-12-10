@@ -1,5 +1,7 @@
 # kana60
 
+[![](https://img.shields.io/badge/CADLAB.io-kana60-brightgreen)](https://cadlab.io/project/23636)
+
 JP layout 60% mechanical keyboard
 
 ## How to verify checksums
