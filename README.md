@@ -10,6 +10,8 @@ JP layout 60% mechanical keyboard
 
 Keycaps: [FILCO FKCS108NMP](https://www.amazon.co.jp/dp/B07SR3NHXY/) and another 1 keycap (At bottom of N key).
 
+QMK Firmware: [sasaplus1/qmk_firmware](https://github.com/qmk/qmk_firmware/compare/master...sasaplus1:kana60-test)
+
 ## How to verify checksums
 
 ```console
