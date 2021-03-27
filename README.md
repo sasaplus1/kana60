@@ -4,6 +4,12 @@
 
 JP layout 60% mechanical keyboard
 
+<p align="center">
+  <img alt="kana60 keyboard" src="kana60.jpg" width="578">
+</p>
+
+Keycaps: [FILCO FKCS108NMP](https://www.amazon.co.jp/dp/B07SR3NHXY/) and another 1 keycap (At bottom of N key).
+
 ## How to verify checksums
 
 ```console
